@@ -2,7 +2,7 @@
 title: WIKI
 description: 
 published: true
-date: 2019-10-28T01:02:23.928Z
+date: 2019-10-28T01:04:27.000Z
 tags: 
 ---
 
@@ -10,7 +10,7 @@ tags:
 <!-- TITLE: Snippets -->
 
 # Development
-* [C](/c)
+* [C](/clang)
 
 * [Perl](/perl)
 
