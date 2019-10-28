@@ -2,11 +2,11 @@
 title: WIKI
 description: 
 published: true
-date: 2019-10-28T00:27:41.982Z
+date: 2019-10-28T00:31:00.271Z
 tags: 
 ---
 
-# WIKI KIKI3
+# WIKI KIKI6
 <!-- TITLE: Snippets -->
 
 # Development
