@@ -2,19 +2,19 @@
 title: ssss
 description: 
 published: true
-date: 2019-10-28T01:06:41.346Z
+date: 2019-10-28T01:34:44.786Z
 tags: 
 ---
 
 # C
 <!-- SUBTITLE: A quick summary of C -->
 
-* [helloworld](/c/helloworld)
+* [helloworld](/clang/helloworld)
 
-* [typedef](/c/typedef)
+* [typedef](/clang/typedef)
 
-* [strncmp](/c/strncmp)
+* [strncmp](/clang/strncmp)
 
-* [errno](/c/errno)
+* [errno](/clang/errno)
 
-* [sizeof](/c/sizeof)
+* [sizeof](/clang/sizeof)
