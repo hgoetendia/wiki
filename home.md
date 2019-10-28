@@ -2,7 +2,7 @@
 title: WIKI
 description: 
 published: true
-date: 2019-10-28T01:53:52.480Z
+date: 2019-10-28T01:54:40.856Z
 tags: 
 ---
 
@@ -10,21 +10,21 @@ tags:
 <!-- TITLE: Snippets -->
 
 # Development
-## [C](/clang)
+* [C](/clang)
 
-## [Perl](/perl)
+* [Perl](/perl)
 
-## [Flexbox](/css/flexbox)
+* [Flexbox](/css/flexbox)
 
-## [Python](/python)
+* [Python](/python)
 
-## [Javascript](/javascript/javascript)
+* [Javascript](/javascript/javascript)
 
-## [Java](/java)
+* [Java](/java)
 
-## [Bash](/bash/bash)
+* [Bash](/bash/bash)
 
-## [gdb](/gdb)
+* [gdb](/gdb)
 # IDEs
 * [Emacs](/emacs/emacs)
 
