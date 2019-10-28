@@ -2,7 +2,7 @@
 title: C Typedef
 description: 
 published: true
-date: 2019-10-28T00:39:06.101Z
+date: 2019-10-28T01:41:15.480Z
 tags: 
 ---
 
