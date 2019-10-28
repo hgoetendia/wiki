@@ -2,7 +2,7 @@
 title: PostgreSQL
 description: 
 published: true
-date: 2019-10-28T00:46:35.622Z
+date: 2019-10-28T03:16:20.534Z
 tags: 
 ---
 
@@ -15,5 +15,5 @@ tags:
 * [dumps](/postgresql/dumps)
 * [Edit/List functions](/postgresql/editfunction)
 * [Create types](/postgresql/createtypes)
-* [Executing queryes](postgresql/executeqry)
-* [Replication](postgresql/replication)
+* [Executing queryes](/postgresql/executeqry)
+* [Replication](/postgresql/replication)
