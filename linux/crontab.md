@@ -2,7 +2,7 @@
 title: Crontab
 description: A quick summary of Crontab
 published: true
-date: 2019-10-28T15:11:52.322Z
+date: 2019-10-28T15:12:09.562Z
 tags: 
 ---
 
