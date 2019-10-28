@@ -2,13 +2,19 @@
 title: Crontab
 description: A quick summary of Crontab
 published: true
-date: 2019-10-28T00:40:55.253Z
+date: 2019-10-28T15:11:52.322Z
 tags: 
 ---
 
 # Vim as `crontab -e` editor
 
 
-```sh
+```bash
 export VISUAL=vim
 ```
+or
+```bash
+export EDITOR=vim
+```
+
+
