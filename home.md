@@ -1,4 +1,5 @@
-<!-- TITLE: Snippets -->
+TITLE: HGB
+
 
 # Development
 * [C](/c/c)
