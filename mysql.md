@@ -2,7 +2,7 @@
 title: Mysql
 description: 
 published: true
-date: 2019-10-28T03:20:06.467Z
+date: 2019-10-28T03:21:05.235Z
 tags: 
 ---
 
@@ -19,7 +19,7 @@ tags:
 * [Jump slave errors](/mysql/jumpslaveerrors)
 * [Disable replication for the current session](/mysql/disablereplicationforsession)
 * [Check and repair](/mysql/checkandrepair)
-* [Host ‘host_name’ is blocked because of many connection errors](/mysql/host_nameisblockedbecauseofmanyconnectionerrors)
+* [Host ‘host_name’ is blocked because of many connection errors](/mysql/hostnameisblockedbecauseofmanyconnectionerrors)
 * [Table sizes in MB](/mysql/tablesizesinmb)
 * [Replication](/mysql/replication)
 * [Load data](/mysql/loaddata)
