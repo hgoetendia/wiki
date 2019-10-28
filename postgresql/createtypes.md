@@ -1,5 +1,10 @@
-<!-- TITLE: Createtypes -->
-<!-- SUBTITLE: A quick summary of Createtypes -->
+---
+title: Createtypes
+description: A quick summary of Createtypes
+published: true
+date: 2019-10-28T00:45:47.144Z
+tags: 
+---
 
 # Enumerated type
 

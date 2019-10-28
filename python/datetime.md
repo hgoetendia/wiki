@@ -1,5 +1,10 @@
-<!-- TITLE: Datetime -->
-<!-- SUBTITLE: A quick summary of Datetime -->
+---
+title: Datetime
+description: A quick summary of Datetime
+published: true
+date: 2019-10-28T00:46:38.062Z
+tags: 
+---
 
 # Now timestamp
 

@@ -1,5 +1,10 @@
-<!-- TITLE: Install -->
-<!-- SUBTITLE: A quick summary of Install -->
+---
+title: Install
+description: A quick summary of Install
+published: true
+date: 2019-10-28T00:44:21.249Z
+tags: 
+---
 
 # MySQL Install in UBUNTU
 

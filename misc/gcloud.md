@@ -1,5 +1,10 @@
-<!-- TITLE: Gcloud -->
-<!-- SUBTITLE: A quick summary of Gcloud -->
+---
+title: Gcloud
+description: A quick summary of Gcloud
+published: true
+date: 2019-10-28T00:42:56.056Z
+tags: 
+---
 
 Error:
 

@@ -1,5 +1,10 @@
-<!-- TITLE: Threads -->
-<!-- SUBTITLE: A quick summary of Threads -->
+---
+title: Threads
+description: A quick summary of Threads
+published: true
+date: 2019-10-28T00:47:18.212Z
+tags: 
+---
 
 # Simple
 

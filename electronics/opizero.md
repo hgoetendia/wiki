@@ -1,6 +1,10 @@
-<!-- TITLE: Opizero -->
-<!-- SUBTITLE: A quick summary of Opizero -->
-
+---
+title: Opizero
+description: A quick summary of Opizero
+published: true
+date: 2019-10-28T00:39:15.722Z
+tags: 
+---
 
 # Orange pi zero
 ![Screenshot From 2019 07 11 04 53 27](/uploads/electronics/screenshot-from-2019-07-11-04-53-27.png "Screenshot From 2019 07 11 04 53 27")

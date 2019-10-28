@@ -1,4 +1,11 @@
-<!-- TITLE: Terminal -->
+---
+title: Terminal
+description: 
+published: true
+date: 2019-10-28T00:42:38.594Z
+tags: 
+---
+
 # Errors
 
 ## LC_CTYPE: cannot change locale (UTF-8): No such file or directory

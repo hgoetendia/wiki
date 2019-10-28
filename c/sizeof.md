@@ -1,4 +1,10 @@
-<!-- TITLE: Sizeof -->
+---
+title: Sizeof
+description: 
+published: true
+date: 2019-10-28T00:38:56.592Z
+tags: 
+---
 
 # sizeof single struct member in C
 

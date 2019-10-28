@@ -1,5 +1,10 @@
-<!-- TITLE: Tramp -->
-<!-- SUBTITLE: A quick summary of Tramp -->
+---
+title: Tramp
+description: A quick summary of Tramp
+published: true
+date: 2019-10-28T00:40:25.454Z
+tags: 
+---
 
 # Open a remote file
 

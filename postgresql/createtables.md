@@ -1,5 +1,10 @@
-<!-- TITLE: Createtables -->
-<!-- SUBTITLE: A quick summary of Createtables -->
+---
+title: Createtables
+description: A quick summary of Createtables
+published: true
+date: 2019-10-28T00:45:40.172Z
+tags: 
+---
 
 # As select
 

@@ -1,5 +1,10 @@
-<!-- TITLE: C -->
-<!-- SUBTITLE: A quick summary of C -->
+---
+title: C
+description: A quick summary of C
+published: true
+date: 2019-10-28T00:39:07.545Z
+tags: 
+---
 
 * [helloworld](/c/helloworld)
 

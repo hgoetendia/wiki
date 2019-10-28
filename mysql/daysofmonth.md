@@ -1,5 +1,10 @@
-<!-- TITLE: MySQL/List days of current month -->
-
+---
+title: MySQL/List days of current month
+description: 
+published: true
+date: 2019-10-28T00:43:50.244Z
+tags: 
+---
 
 ```sql
 SELECT 

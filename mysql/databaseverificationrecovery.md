@@ -1,6 +1,10 @@
-<!-- TITLE: Database verification recovery -->
-<!-- SUBTITLE: A quick summary of Databaseverificationrecovery -->
-
+---
+title: Database verification recovery
+description: A quick summary of Databaseverificationrecovery
+published: true
+date: 2019-10-28T00:43:46.200Z
+tags: 
+---
 
 # Avoid database verification recovery
 

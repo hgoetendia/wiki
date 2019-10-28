@@ -1,4 +1,10 @@
-<!-- TITLE: Snippets -->
+---
+title: Snippets
+description: 
+published: true
+date: 2019-10-28T00:40:11.992Z
+tags: 
+---
 
 # Yasnippet
 

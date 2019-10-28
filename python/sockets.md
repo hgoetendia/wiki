@@ -1,5 +1,10 @@
-<!-- TITLE: Sockets -->
-<!-- SUBTITLE: A quick summary of Sockets -->
+---
+title: Sockets
+description: A quick summary of Sockets
+published: true
+date: 2019-10-28T00:47:14.261Z
+tags: 
+---
 
 # TCP Client
 

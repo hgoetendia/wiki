@@ -1,6 +1,10 @@
-<!-- TITLE: Gdb -->
-<!-- SUBTITLE: A quick summary of Gdb -->
-
+---
+title: Gdb
+description: A quick summary of Gdb
+published: true
+date: 2019-10-28T00:37:35.764Z
+tags: 
+---
 
 # Breakpoints
 

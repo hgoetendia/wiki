@@ -1,5 +1,10 @@
-<!-- TITLE: Split -->
-<!-- SUBTITLE: A quick summary of Split -->
+---
+title: Split
+description: A quick summary of Split
+published: true
+date: 2019-10-28T00:43:16.409Z
+tags: 
+---
 
 # Split a file into equal parts, without breaking individual lines
 

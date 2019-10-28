@@ -1,5 +1,10 @@
-<!-- TITLE: Rsync -->
-<!-- SUBTITLE: A quick summary of Rsync -->
+---
+title: Rsync
+description: A quick summary of Rsync
+published: true
+date: 2019-10-28T00:42:02.515Z
+tags: 
+---
 
 # Copy incremental files of folder
 

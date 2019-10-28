@@ -1,3 +1,11 @@
+---
+title: htmltable
+description: 
+published: true
+date: 2019-10-28T00:45:29.222Z
+tags: 
+---
+
 <!-- TITLE: Create Html table hash based-->
 
 ```perl

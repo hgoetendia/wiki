@@ -1,5 +1,10 @@
-<!-- TITLE: Disable/Enable replication for current session -->
-
+---
+title: Disable/Enable replication for current session
+description: 
+published: true
+date: 2019-10-28T00:43:56.701Z
+tags: 
+---
 
 # Disable
 

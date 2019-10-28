@@ -1,5 +1,10 @@
-<!-- TITLE: Strncmp -->
-<!-- SUBTITLE: A quick summary of Strncmp -->
+---
+title: Strncmp
+description: A quick summary of Strncmp
+published: true
+date: 2019-10-28T00:39:02.098Z
+tags: 
+---
 
 # String comparision
 

@@ -1,5 +1,10 @@
-<!-- TITLE: Pics -->
-<!-- SUBTITLE: A quick summary of Pics -->
+---
+title: Pics
+description: A quick summary of Pics
+published: true
+date: 2019-10-28T00:39:19.254Z
+tags: 
+---
 
 # Header
 Positive voltages:

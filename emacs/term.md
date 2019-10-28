@@ -1,5 +1,10 @@
-<!-- TITLE: Term -->
-<!-- SUBTITLE: A quick summary of Term -->
+---
+title: Term
+description: A quick summary of Term
+published: true
+date: 2019-10-28T00:40:17.617Z
+tags: 
+---
 
 # Ansi-term
 

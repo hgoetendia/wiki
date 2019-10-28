@@ -1,4 +1,10 @@
-<!-- TITLE: Pip -->
+---
+title: Pip
+description: 
+published: true
+date: 2019-10-28T00:47:02.653Z
+tags: 
+---
 
 # Install
 

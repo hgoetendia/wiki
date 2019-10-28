@@ -1,4 +1,10 @@
-<!-- TITLE: Emacs/Basics -->
+---
+title: Emacs/Basics
+description: 
+published: true
+date: 2019-10-28T00:39:31.400Z
+tags: 
+---
 
 # Install
 Default emacs package in Centos 7.5 is Emacs 24.3.1

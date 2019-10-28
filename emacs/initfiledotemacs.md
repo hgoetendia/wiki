@@ -1,4 +1,10 @@
-<!-- TITLE: Init file emacs -->
+---
+title: Init file emacs
+description: 
+published: true
+date: 2019-10-28T00:39:49.945Z
+tags: 
+---
 
 # Load alternative config file .emacs
 

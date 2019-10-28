@@ -1,5 +1,10 @@
-<!-- TITLE: Triggers -->
-<!-- SUBTITLE: A quick summary of Triggers -->
+---
+title: Triggers
+description: A quick summary of Triggers
+published: true
+date: 2019-10-28T00:44:48.340Z
+tags: 
+---
 
 # Show triggers
 

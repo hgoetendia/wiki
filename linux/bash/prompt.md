@@ -1,5 +1,10 @@
-<!-- TITLE: Prompt -->
-<!-- SUBTITLE: A quick summary of Prompt -->
+---
+title: Prompt
+description: A quick summary of Prompt
+published: true
+date: 2019-10-28T00:47:50.730Z
+tags: 
+---
 
 # Prompt generator
 

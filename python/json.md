@@ -1,5 +1,10 @@
-<!-- TITLE: Json -->
-
+---
+title: Json
+description: 
+published: true
+date: 2019-10-28T00:46:52.648Z
+tags: 
+---
 
 JSON syntax is not Python syntax. JSON requires double quotes for its strings.
 

@@ -1,4 +1,10 @@
-<!-- TITLE: Emacs/Term-mode -->
+---
+title: Emacs/Term-mode
+description: 
+published: true
+date: 2019-10-28T00:40:21.269Z
+tags: 
+---
 
 `M-x ansi-term`
 # char mode

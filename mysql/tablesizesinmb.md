@@ -1,6 +1,10 @@
-<!-- TITLE: Table sizes in MB -->
-
-
+---
+title: Table sizes in MB
+description: 
+published: true
+date: 2019-10-28T00:44:44.691Z
+tags: 
+---
 
 ```sql
 SELECT 

@@ -1,5 +1,10 @@
-<!-- TITLE: Dumps -->
-<!-- SUBTITLE: A quick summary of Dumps -->
+---
+title: Dumps
+description: A quick summary of Dumps
+published: true
+date: 2019-10-28T00:45:55.768Z
+tags: 
+---
 
 # Dumping schema only of a whole database
 

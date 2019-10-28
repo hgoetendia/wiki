@@ -1,4 +1,10 @@
-<!-- TITLE: Mysql -->
+---
+title: Mysql
+description: 
+published: true
+date: 2019-10-28T00:44:23.018Z
+tags: 
+---
 
 * [Install](/mysql/install)
 

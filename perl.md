@@ -1,4 +1,10 @@
-<!-- TITLE: Perl -->
+---
+title: Perl
+description: 
+published: true
+date: 2019-10-28T00:45:38.279Z
+tags: 
+---
 
 # UDP server/client
 

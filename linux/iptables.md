@@ -1,4 +1,10 @@
-<!-- TITLE: Iptables -->
+---
+title: Iptables
+description: 
+published: true
+date: 2019-10-28T00:41:17.539Z
+tags: 
+---
 
 # Show rules
 

@@ -1,4 +1,10 @@
-<!-- TITLE: Hashes -->
+---
+title: Hashes
+description: 
+published: true
+date: 2019-10-28T00:45:24.059Z
+tags: 
+---
 
 # Creating and displaying
 

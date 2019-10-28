@@ -1,4 +1,10 @@
-<!-- TITLE: Bash Script parameters -->
+---
+title: Bash Script parameters
+description: 
+published: true
+date: 2019-10-28T00:38:39.915Z
+tags: 
+---
 
 # Number of parameters entered
 man bash

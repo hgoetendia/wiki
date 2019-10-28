@@ -1,4 +1,10 @@
-<!-- TITLE: Yowsup 2 -->
+---
+title: Yowsup 2
+description: 
+published: true
+date: 2019-10-28T00:47:27.088Z
+tags: 
+---
 
 Centos7
 # Install

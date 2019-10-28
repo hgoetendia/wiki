@@ -1,4 +1,10 @@
-<!-- TITLE: Tcpdump -->
+---
+title: Tcpdump
+description: 
+published: true
+date: 2019-10-28T00:43:22.031Z
+tags: 
+---
 
 * -w myfile.pcap  #  Dump to file myfile.pcap
 * -ieth0                 # eth0 interface,  -iany, -il0

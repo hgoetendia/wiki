@@ -1,7 +1,10 @@
-<!-- TITLE: Emacs -->
-
-
-
+---
+title: Emacs
+description: 
+published: true
+date: 2019-10-28T00:39:36.782Z
+tags: 
+---
 
 # Emacs for C/C++
 ## TAB = 4 spaces.

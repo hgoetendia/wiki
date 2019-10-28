@@ -1,4 +1,10 @@
-<!-- TITLE: Godaddy SSL Certs with NGINX -->
+---
+title: Godaddy SSL Certs with NGINX
+description: 
+published: true
+date: 2019-10-28T00:45:06.275Z
+tags: 
+---
 
 Find de key file that godday gaves you `example.com.key` then donwload the zip cert file in godaddy web.
 

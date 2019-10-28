@@ -1,5 +1,10 @@
-<!-- TITLE: Funcprocs -->
-<!-- SUBTITLE: A quick summary of Funcprocs -->
+---
+title: Funcprocs
+description: A quick summary of Funcprocs
+published: true
+date: 2019-10-28T00:44:07.812Z
+tags: 
+---
 
 # Show procedures
 

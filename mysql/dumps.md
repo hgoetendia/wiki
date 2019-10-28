@@ -1,4 +1,10 @@
-<!-- TITLE: MySQL/Dumps -->
+---
+title: MySQL/Dumps
+description: 
+published: true
+date: 2019-10-28T00:44:01.204Z
+tags: 
+---
 
 # Dumping a table
 ```sh

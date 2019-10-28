@@ -1,4 +1,10 @@
-<!-- TITLE: PostgreSQL/Install -->
+---
+title: PostgreSQL/Install
+description: 
+published: true
+date: 2019-10-28T00:46:16.847Z
+tags: 
+---
 
 Centos 7 tested with PostgreSQL 11
 # Configure yum repo

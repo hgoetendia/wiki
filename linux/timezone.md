@@ -1,4 +1,10 @@
-<!-- TITLE: Linux/Timezone -->
+---
+title: Linux/Timezone
+description: 
+published: true
+date: 2019-10-28T00:42:20.405Z
+tags: 
+---
 
 # Set up timezone.
 

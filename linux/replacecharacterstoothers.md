@@ -1,5 +1,10 @@
-<!-- TITLE: Replace characters to others -->
-
+---
+title: Replace characters to others
+description: 
+published: true
+date: 2019-10-28T00:41:48.963Z
+tags: 
+---
 
 # Replace pipe to coma ( | to , )
 

@@ -1,6 +1,10 @@
-<!-- TITLE: Errno -->
-<!-- SUBTITLE: A quick summary of Errno -->
-
+---
+title: Errno
+description: A quick summary of Errno
+published: true
+date: 2019-10-28T00:38:49.627Z
+tags: 
+---
 
 ```c_cpp
 

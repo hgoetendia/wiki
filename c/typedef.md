@@ -1,4 +1,10 @@
-<!-- TITLE: C Typedef -->
+---
+title: C Typedef
+description: 
+published: true
+date: 2019-10-28T00:39:06.101Z
+tags: 
+---
 
 # typedef enum
 ```c_cpp

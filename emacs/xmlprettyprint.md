@@ -1,5 +1,10 @@
-<!-- TITLE: Emacs XML pretty print -->
-
+---
+title: Emacs XML pretty print
+description: 
+published: true
+date: 2019-10-28T00:40:31.584Z
+tags: 
+---
 
 Change to sgml-mode
 

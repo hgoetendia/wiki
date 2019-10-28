@@ -1,5 +1,10 @@
-<!-- TITLE: Emacs / Mysql -->
-<!-- SUBTITLE: A quick summary of Mysql -->
+---
+title: Emacs / Mysql
+description: A quick summary of Mysql
+published: true
+date: 2019-10-28T00:40:00.480Z
+tags: 
+---
 
 # sql-mysql
 Execute `M-x sql-mysql` for interactive mode.

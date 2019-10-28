@@ -1,5 +1,10 @@
-<!-- TITLE: Magit -->
-<!-- SUBTITLE: A quick summary of Magit -->
+---
+title: Magit
+description: A quick summary of Magit
+published: true
+date: 2019-10-28T00:39:53.593Z
+tags: 
+---
 
 # Basics
 

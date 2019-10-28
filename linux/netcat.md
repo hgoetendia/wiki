@@ -1,4 +1,10 @@
-<!-- TITLE: Netcat -->
+---
+title: Netcat
+description: 
+published: true
+date: 2019-10-28T00:41:30.760Z
+tags: 
+---
 
 # Netcat TCP server (forever listen) without -k option
 

@@ -1,4 +1,10 @@
-<!-- TITLE: Schemas -->
+---
+title: Schemas
+description: 
+published: true
+date: 2019-10-28T00:46:27.579Z
+tags: 
+---
 
 # Create schema
 

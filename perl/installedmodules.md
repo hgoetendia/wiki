@@ -1,4 +1,10 @@
-<!-- TITLE: Perl show installed modules -->
+---
+title: Perl show installed modules
+description: 
+published: true
+date: 2019-10-28T00:45:33.840Z
+tags: 
+---
 
 # Show installed modules
 

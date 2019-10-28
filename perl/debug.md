@@ -1,5 +1,10 @@
-<!-- TITLE: Debugging PERL -->
-
+---
+title: Debugging PERL
+description: 
+published: true
+date: 2019-10-28T00:45:19.817Z
+tags: 
+---
 
 # In EMACS
 

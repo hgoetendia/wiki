@@ -1,5 +1,10 @@
-<!-- TITLE: Tmux -->
-<!-- SUBTITLE: A quick summary of Tmux -->
+---
+title: Tmux
+description: A quick summary of Tmux
+published: true
+date: 2019-10-28T00:43:25.057Z
+tags: 
+---
 
 # Config file .tmux.conf
 

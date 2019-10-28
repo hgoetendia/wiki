@@ -1,5 +1,10 @@
-<!-- TITLE: Routes -->
-<!-- SUBTITLE: A quick summary of Routes -->
+---
+title: Routes
+description: A quick summary of Routes
+published: true
+date: 2019-10-28T00:41:55.376Z
+tags: 
+---
 
 # Add/Del routes
 ## Add

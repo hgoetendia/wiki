@@ -1,4 +1,10 @@
-<!-- TITLE: Mongoose -->
+---
+title: Mongoose
+description: 
+published: true
+date: 2019-10-28T00:37:59.403Z
+tags: 
+---
 
 # Goddady ssl certs with mongoose
 key = generated-private-key.txt

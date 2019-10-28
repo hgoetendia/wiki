@@ -1,4 +1,10 @@
-<!-- TITLE: Linux -->
+---
+title: Linux
+description: 
+published: true
+date: 2019-10-28T00:47:51.945Z
+tags: 
+---
 
 # Misc
 * [Setup time and timezone](/linux/timezone)

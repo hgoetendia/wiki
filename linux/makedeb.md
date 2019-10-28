@@ -1,5 +1,10 @@
-<!-- TITLE: Makedeb -->
-<!-- SUBTITLE: A quick summary of Makedeb -->
+---
+title: Makedeb
+description: A quick summary of Makedeb
+published: true
+date: 2019-10-28T00:41:24.139Z
+tags: 
+---
 
 This tutorial shows the most basic way of packaging a simple already-compiled program.
 

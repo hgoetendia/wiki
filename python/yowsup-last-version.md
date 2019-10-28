@@ -1,4 +1,10 @@
-<!-- TITLE: Yowsup Last Version -->
+---
+title: Yowsup Last Version
+description: 
+published: true
+date: 2019-10-28T00:47:33.487Z
+tags: 
+---
 
 # Installing using virtual env
 

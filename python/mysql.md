@@ -1,5 +1,10 @@
-<!-- TITLE: Mysql -->
-<!-- SUBTITLE: A quick summary of Mysql -->
+---
+title: Mysql
+description: A quick summary of Mysql
+published: true
+date: 2019-10-28T00:46:56.707Z
+tags: 
+---
 
 # Options for using Python 3 with mysql:
 There are currently a few options for using Python 3 with mysql:

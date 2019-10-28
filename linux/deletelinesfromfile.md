@@ -1,4 +1,11 @@
-<!-- TITLE: Delete lines from file -->
+---
+title: Delete lines from file
+description: 
+published: true
+date: 2019-10-28T00:41:01.467Z
+tags: 
+---
+
 # With sed
 
 To delete lines 2, 12-17 and line 57 from file data.txt using sed you could do something like this:

@@ -1,6 +1,10 @@
-<!-- TITLE: Iterating & Rendering with Loops in React components  -->
-
-
+---
+title: Iterating & Rendering with Loops in React components 
+description: 
+published: true
+date: 2019-10-28T00:47:45.161Z
+tags: 
+---
 
 Ref: https://thinkster.io/tutorials/iterating-and-rendering-loops-in-react
 # Problem

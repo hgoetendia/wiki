@@ -1,4 +1,10 @@
-<!-- TITLE: Tablespace -->
+---
+title: Tablespace
+description: 
+published: true
+date: 2019-10-28T00:46:33.234Z
+tags: 
+---
 
 # Create tablespace
 `/path/to/example/directory'` must have postgres user perms

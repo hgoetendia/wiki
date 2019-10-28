@@ -1,5 +1,10 @@
-<!-- TITLE: Mysql/Jump slave error -->
-<!-- SUBTITLE: A quick summary of Jumpslaveerrors -->
+---
+title: Mysql/Jump slave error
+description: A quick summary of Jumpslaveerrors
+published: true
+date: 2019-10-28T00:44:25.323Z
+tags: 
+---
 
 # Jump replication slave error 
 Repair MySQL Replication

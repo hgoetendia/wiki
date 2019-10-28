@@ -1,4 +1,10 @@
-<!-- TITLE: Load data -->
+---
+title: Load data
+description: 
+published: true
+date: 2019-10-28T00:44:28.309Z
+tags: 
+---
 
 # Load CVS file into table: LOAD DATA INFILE
 

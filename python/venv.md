@@ -1,4 +1,10 @@
-<!-- TITLE: Virtual enviroments and packages -->
+---
+title: Virtual enviroments and packages
+description: 
+published: true
+date: 2019-10-28T00:47:21.189Z
+tags: 
+---
 
 Sometimes it is not possible for one Python installation to meet the requirements of every application. If application A needs version 1.0 of a particular module but application B needs version 2.0, then the requirements are in conflict and installing either version 1.0 or 2.0 will leave one application unable to run.
 

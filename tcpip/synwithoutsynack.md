@@ -1,5 +1,10 @@
-<!-- TITLE: SYN without SYN/ACK -->
-<!-- SUBTITLE: Setting for a webserver with big transactionality -->
+---
+title: SYN without SYN/ACK
+description: Setting for a webserver with big transactionality
+published: true
+date: 2019-10-28T00:47:38.197Z
+tags: 
+---
 
 Reference: https://serverfault.com/questions/235965/why-would-a-server-not-send-a-syn-ack-packet-in-response-to-a-syn-packet
 

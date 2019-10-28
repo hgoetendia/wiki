@@ -1,4 +1,10 @@
-<!-- TITLE: Strace -->
+---
+title: Strace
+description: 
+published: true
+date: 2019-10-28T00:42:13.648Z
+tags: 
+---
 
 # By Pid
 

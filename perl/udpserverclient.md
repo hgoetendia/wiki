@@ -1,4 +1,10 @@
-<!-- TITLE: UDP server client -->
+---
+title: UDP server client
+description: 
+published: true
+date: 2019-10-28T00:45:36.990Z
+tags: 
+---
 
 # UDP server
 

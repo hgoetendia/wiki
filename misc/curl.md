@@ -1,5 +1,10 @@
-<!-- TITLE: Curl -->
-<!-- SUBTITLE: A quick summary of Curl -->
+---
+title: Curl
+description: A quick summary of Curl
+published: true
+date: 2019-10-28T00:42:46.177Z
+tags: 
+---
 
 # POST JSON
 

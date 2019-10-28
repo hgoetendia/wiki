@@ -1,5 +1,10 @@
-<!-- TITLE: Altertable -->
-<!-- SUBTITLE: A quick summary of Altertable -->
+---
+title: Altertable
+description: A quick summary of Altertable
+published: true
+date: 2019-10-28T00:43:34.155Z
+tags: 
+---
 
 # Alter enum column
 

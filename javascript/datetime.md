@@ -1,4 +1,10 @@
-<!-- TITLE: JavaScript: Date and time -->
+---
+title: JavaScript: Date and time
+description: 
+published: true
+date: 2019-10-28T00:40:35.802Z
+tags: 
+---
 
 # Date Class
 

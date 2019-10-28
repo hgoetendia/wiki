@@ -1,4 +1,10 @@
-<!-- TITLE: Serial communications -->
+---
+title: Serial communications
+description: 
+published: true
+date: 2019-10-28T00:39:24.696Z
+tags: 
+---
 
 # UART
 

@@ -1,4 +1,10 @@
-<!-- TITLE: Nginx Basic commands -->
+---
+title: Nginx Basic commands
+description: 
+published: true
+date: 2019-10-28T00:44:59.344Z
+tags: 
+---
 
 # Install Nginx 
 

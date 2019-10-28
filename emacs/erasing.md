@@ -1,5 +1,10 @@
-<!-- TITLE: Emacs / Erasing -->
-
+---
+title: Emacs / Erasing
+description: 
+published: true
+date: 2019-10-28T00:39:44.502Z
+tags: 
+---
 
 # Delete the character after point. 
 `del` keyword

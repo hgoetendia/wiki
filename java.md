@@ -1,4 +1,10 @@
-<!-- TITLE: Java -->
+---
+title: Java
+description: 
+published: true
+date: 2019-10-28T00:37:46.963Z
+tags: 
+---
 
 # Decompilers
 

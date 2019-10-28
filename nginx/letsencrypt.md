@@ -1,5 +1,10 @@
-<!-- TITLE: Nginx and Letsencrypt -->
-<!-- SUBTITLE: Configuring Nginx with letsencrypt -->
+---
+title: Nginx and Letsencrypt
+description: Configuring Nginx with letsencrypt
+published: true
+date: 2019-10-28T00:45:12.551Z
+tags: 
+---
 
 # Configuring
 

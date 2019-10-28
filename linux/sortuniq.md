@@ -1,5 +1,10 @@
-<!-- TITLE: Sort uniq -->
-<!-- SUBTITLE: A quick summary of Sortuniq -->
+---
+title: Sort uniq
+description: A quick summary of Sortuniq
+published: true
+date: 2019-10-28T00:42:09.191Z
+tags: 
+---
 
 # Unique lines
 

@@ -1,5 +1,10 @@
-<!-- TITLE: Replication -->
-<!-- SUBTITLE: A quick summary of Replication -->
+---
+title: Replication
+description: A quick summary of Replication
+published: true
+date: 2019-10-28T00:46:22.234Z
+tags: 
+---
 
 # In master:
 * Get tablespace location
