@@ -2,12 +2,9 @@
 title: WIKI
 description: 
 published: true
-date: 2019-10-28T01:54:40.856Z
+date: 2019-10-28T01:55:08.528Z
 tags: 
 ---
-
-# WIKI KIKI6
-<!-- TITLE: Snippets -->
 
 # Development
 * [C](/clang)
