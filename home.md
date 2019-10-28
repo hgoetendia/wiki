@@ -2,43 +2,34 @@
 title: THM
 description: The happy moon
 published: true
-date: 2019-10-28T01:56:25.142Z
+date: 2019-10-28T01:57:37.806Z
 tags: 
 ---
 
 # Development
 * [C](/clang)
-
 * [Perl](/perl)
-
 * [Flexbox](/css/flexbox)
-
 * [Python](/python)
-
 * [Javascript](/javascript/javascript)
-
 * [Java](/java)
-
 * [Bash](/bash/bash)
-
 * [gdb](/gdb)
+
 # IDEs
 * [Emacs](/emacs/emacs)
 
 # OS
 
 * [Linux](/linux)
-
 * [Windows](/windows)
-
 * [MacOSX](/macosx)
 
 # Web servers
 * [Nginx](/nginx)
-
 * [Apache](/apache)
-
 * [Mongoose](/mongoose)
+
 # Databases
 
 * [MySQL](/mysql)
