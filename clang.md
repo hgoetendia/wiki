@@ -2,7 +2,7 @@
 title: ssss
 description: 
 published: true
-date: 2019-10-28T01:34:44.786Z
+date: 2019-10-28T03:17:05.323Z
 tags: 
 ---
 
@@ -10,11 +10,7 @@ tags:
 <!-- SUBTITLE: A quick summary of C -->
 
 * [helloworld](/clang/helloworld)
-
 * [typedef](/clang/typedef)
-
 * [strncmp](/clang/strncmp)
-
 * [errno](/clang/errno)
-
 * [sizeof](/clang/sizeof)
