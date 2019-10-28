@@ -2,14 +2,14 @@
 title: Emacs
 description: 
 published: true
-date: 2019-10-28T00:40:33.701Z
+date: 2019-10-28T03:17:52.628Z
 tags: 
 ---
 
 * [Basics](/emacs/basics)
-* [Snippets](emacs/snippets)
-* [Init file alternative](emacs/initfiledotemacs)
-* [Tramp (edit using ssh)](emacs/tramp)
+* [Snippets](/emacs/snippets)
+* [Init file alternative](/emacs/initfiledotemacs)
+* [Tramp (edit using ssh)](/emacs/tramp)
 ---
 * [C/C++](/emacs/ccplusplus)
 * [ReactJS](/emacs/reactjs)
