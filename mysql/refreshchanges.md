@@ -2,10 +2,10 @@
 title: MySQL refresh changes
 description: A quick summary of Refreshchanges
 published: true
-date: 2019-10-28T00:44:31.077Z
+date: 2019-10-31T15:59:08.151Z
 tags: 
 ---
 
 ```sh
-mysqladmin -uadmtiaxa refresh -p
+mysqladmin -umyUser refresh -p
 ```
