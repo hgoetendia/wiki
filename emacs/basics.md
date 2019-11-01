@@ -2,7 +2,7 @@
 title: Emacs/Basics
 description: 
 published: true
-date: 2019-11-01T05:07:32.734Z
+date: 2019-11-01T05:08:48.901Z
 tags: 
 ---
 
