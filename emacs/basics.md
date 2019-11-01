@@ -2,7 +2,7 @@
 title: Emacs/Basics
 description: 
 published: true
-date: 2019-11-01T05:11:26.632Z
+date: 2019-11-01T05:11:59.085Z
 tags: 
 ---
 
@@ -473,8 +473,8 @@ When press key 'End' and shows get an error `<select> is undefined`
 ;; ~/.tmux.conf says:
 ;;   set-window-option -g xterm-keys on
 ;;   set -g default-terminal "xterm-256color"
-;; still, pressing <end> key results in error:
-;;   <select> is undefined
+;; still, pressing < end > key results in error:
+;;   < select > is undefined
 ;; This hack fixes the end key. Home key already
 ;; worked on Linux/tmux (don't know about putty)
 ;;
