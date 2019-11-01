@@ -2,7 +2,7 @@
 title: Emacs
 description: 
 published: true
-date: 2019-10-28T00:39:36.782Z
+date: 2019-11-01T05:14:31.087Z
 tags: 
 ---
 
@@ -66,10 +66,20 @@ Tunning compilation window.
 
 
 ```lisp
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;Para ver los parentesis que corresponden;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;Para ver los parentesis que corresponden usando el % sobre el simbolo;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (show-paren-mode t)
+
+(global-set-key "%" 'match-paren)
+          
+          (defun match-paren (arg)
+            "Go to the matching paren if on a paren; otherwise insert %."
+            (interactive "p")
+            (cond ((looking-at "\\s(") (forward-list 1) (backward-char 1))
+                  ((looking-at "\\s)") (forward-char 1) (backward-list 1))
+                  (t (self-insert-command (or arg 1)))))
+
 ```
 
 
