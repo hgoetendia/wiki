@@ -2,11 +2,9 @@
 title: Databases
 description: 
 published: true
-date: 2019-11-05T19:29:33.753Z
+date: 2019-11-05T19:29:52.627Z
 tags: 
 ---
-
-# Databases
 
 * [MySQL](/mysql)
 * [PostgreSQL](/postgresql)
