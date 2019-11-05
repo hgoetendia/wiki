@@ -2,11 +2,11 @@
 title: Development
 description: All about programming languages
 published: true
-date: 2019-11-05T19:04:01.017Z
+date: 2019-11-05T19:05:47.847Z
 tags: 
 ---
 
-# Development
+# Programing languages
 * [C](/clang)
 * [Perl](/perl)
 * [Flexbox](/css/flexbox)
