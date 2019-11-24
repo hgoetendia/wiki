@@ -2,7 +2,7 @@
 title: Triggers
 description: A quick summary of Triggers
 published: true
-date: 2019-10-28T00:44:48.340Z
+date: 2019-11-24T06:22:22.476Z
 tags: 
 ---
 
@@ -67,4 +67,19 @@ END IF;
 END//
 
 DELIMITER ;
+```
+Another
+```mysql
+delimiter |
+
+CREATE TRIGGER trigger BEFORE INSERT ON table1
+FOR EACH ROW
+  BEGIN
+    select value,value2
+    INTO NEW.value,NEW.value2
+    from table2 where id=NEW.id;
+  END;
+|
+
+delimiter ;
 ```
