@@ -2,7 +2,7 @@
 title: RRDTool
 description: RRDtool is the OpenSource industry standard, high performance data logging and graphing system for time series data. RRDtool can be easily integrated in shell scripts, perl, python, ruby, lua or tcl applications.
 published: true
-date: 2019-11-24T18:22:14.518Z
+date: 2019-11-24T19:00:18.912Z
 tags: 
 ---
 
