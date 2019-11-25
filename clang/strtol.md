@@ -2,7 +2,7 @@
 title: String to long in C strtol
 description: strtol
 published: true
-date: 2019-11-25T02:54:17.281Z
+date: 2019-11-25T02:54:46.718Z
 tags: 
 ---
 
@@ -45,4 +45,5 @@ int main()
 
 
     return 0;
-}```
+}
+```
