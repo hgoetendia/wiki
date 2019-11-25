@@ -2,7 +2,7 @@
 title: ssss
 description: 
 published: true
-date: 2019-11-25T02:51:27.297Z
+date: 2019-11-25T03:00:23.404Z
 tags: 
 ---
 
@@ -15,3 +15,4 @@ tags:
 * [errno](/clang/errno)
 * [sizeof](/clang/sizeof)
 * [strtol](/clang/strtol)
+* [printf/snprintf](/clang/printf)
