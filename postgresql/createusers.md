@@ -2,7 +2,7 @@
 title: Creating users / databases
 description: 
 published: true
-date: 2020-01-09T20:26:46.730Z
+date: 2020-01-09T20:26:57.484Z
 tags: 
 ---
 
@@ -141,6 +141,6 @@ Upon installation Postgres is set up to use "ident" authentication, meaning that
 
 # Delete users
 
-```[local] postgres@postgres=# drop user iherrera;```
+```[local] postgres@postgres=# drop user myuser;```
 
 
