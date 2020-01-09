@@ -2,11 +2,11 @@
 title: Airflow
 description: 
 published: true
-date: 2020-01-08T22:35:15.346Z
+date: 2020-01-09T00:34:36.196Z
 tags: 
 ---
 
-# Installing
+# Installing & Launching
 
 Ref: https://airflow.apache.org/docs/stable/installation.html
 
@@ -29,4 +29,17 @@ airflow scheduler
 
 ```
 
-# Launching
+# Checking
+
+```sh
+http://localhost:8080
+```
+
+# Deploying and iplementing
+
+Check `airflow.cfg` and create or check `dags_folder` for example  `/home/myuser/airflow/dags`
+
+
+
+
+
