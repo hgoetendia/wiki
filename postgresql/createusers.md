@@ -2,7 +2,7 @@
 title: Creating users / databases
 description: 
 published: true
-date: 2019-10-28T00:46:17.963Z
+date: 2020-01-09T20:18:48.377Z
 tags: 
 ---
 
@@ -139,6 +139,8 @@ After that you need reload config settings without restarting [goto manual](/pos
 Upon installation Postgres is set up to use "ident" authentication, meaning that it associates Postgres roles with a matching Unix/Linux system account. If a Postgres role exists, it can be signed in by logging into the associated Linux system account.
 
 
+# Delete users
 
+```[local] postgres@postgres=# drop user iherrera;```
 
 
