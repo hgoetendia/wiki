@@ -2,7 +2,7 @@
 title: THM
 description: The happy moon
 published: true
-date: 2020-01-08T22:26:33.106Z
+date: 2020-01-17T15:55:10.576Z
 tags: 
 ---
 
@@ -66,6 +66,7 @@ tags:
 * [Valgrind / Memory leaking](/misc/valgrind)
 * [RRDTool](/misc/rrdtool)
 * [Airflow](/misc/airflow)
+* [Google Clould Plataform (GCP)](/misc/gcp)
 
 # Usefull tools
 
