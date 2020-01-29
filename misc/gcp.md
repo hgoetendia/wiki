@@ -2,11 +2,12 @@
 title: Google cloud platform GCP
 description: GCP
 published: true
-date: 2020-01-29T16:02:04.745Z
+date: 2020-01-29T16:03:43.845Z
 tags: 
 ---
 
-# Header
+# Cheat sheet
+
 ## Copy to bucket
 
 ```bash
