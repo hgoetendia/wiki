@@ -2,7 +2,7 @@
 title: Linux
 description: 
 published: true
-date: 2019-10-28T00:47:51.945Z
+date: 2020-02-07T20:07:03.446Z
 tags: 
 ---
 
@@ -21,6 +21,8 @@ tags:
 * [Rsync](/linux/rsync)
 * [dos2unix](/linux/dos2unix)
 * [netcat-nc](/linux/netcat)
+* [lsof](/linux/lsof)
+
 # Bash
 * [Prompt](/linux/bash/prompt)
 
