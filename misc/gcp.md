@@ -2,7 +2,7 @@
 title: Google cloud platform GCP
 description: GCP
 published: true
-date: 2020-01-29T16:03:43.845Z
+date: 2020-02-10T23:22:44.393Z
 tags: 
 ---
 
@@ -45,5 +45,30 @@ erik@localhost:~$ cd my-cloud-shell
 erik@localhost:~$ ls
 server.py  README-cloudshell.txt
 erik@localhost:~$ vscode server.py
+```
+
+# Big Query (BQ)
+
+## Drop column
+
+```
+CREATE OR REPLACE TABLE `XXXX.yyy.myTable` AS
+SELECT
+  * EXCEPT ( myColumn1, myColumn2 )
+FROM
+  `XXXX.yyy.myTable`
+```
+
+## Change column type
+
+Change column b to an FLOAT
+
+```sql
+CREATE OR REPLACE TABLE `transactions.test_table` AS
+SELECT
+  * EXCEPT (b),
+  CAST(b AS FLOAT64) AS b
+FROM
+  `transactions.test_table`;
 ```
 
