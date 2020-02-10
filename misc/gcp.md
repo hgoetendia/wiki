@@ -2,7 +2,7 @@
 title: Google cloud platform GCP
 description: GCP
 published: true
-date: 2020-02-10T23:22:44.393Z
+date: 2020-02-10T23:37:18.697Z
 tags: 
 ---
 
@@ -51,7 +51,7 @@ erik@localhost:~$ vscode server.py
 
 ## Drop column
 
-```
+```sql
 CREATE OR REPLACE TABLE `XXXX.yyy.myTable` AS
 SELECT
   * EXCEPT ( myColumn1, myColumn2 )
