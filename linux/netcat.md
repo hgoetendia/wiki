@@ -2,7 +2,7 @@
 title: Netcat
 description: 
 published: true
-date: 2019-10-28T00:41:30.760Z
+date: 2020-03-18T03:28:58.038Z
 tags: 
 ---
 
@@ -16,6 +16,8 @@ port=6700
 while true;
 do
     nc -l -p $port
+    # WITH RESPONSE
+    # echo -e "HELLO WORLD" | nc -l -p $port
 done
 exit 0
 
