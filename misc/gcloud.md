@@ -2,9 +2,21 @@
 title: Gcloud
 description: A quick summary of Gcloud
 published: true
-date: 2019-10-28T00:42:56.056Z
+date: 2020-03-18T23:53:11.215Z
 tags: 
 ---
+
+# Install google tools API
+
+
+
+```sh
+python3.7 -m venv my-bqloads
+source my-bqloads/bin/activate
+pip3.7 install wheel
+pip3.7 install google-cloud
+pip3.7 install google-cloud-bigquery
+```
 
 Error:
 
