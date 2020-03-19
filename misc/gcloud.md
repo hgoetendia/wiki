@@ -2,7 +2,7 @@
 title: Gcloud
 description: A quick summary of Gcloud
 published: true
-date: 2020-03-18T23:53:11.215Z
+date: 2020-03-19T00:07:13.221Z
 tags: 
 ---
 
