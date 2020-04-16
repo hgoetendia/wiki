@@ -2,7 +2,7 @@
 title: AWK
 description: AWK hacks
 published: true
-date: 2020-04-16T18:52:12.802Z
+date: 2020-04-16T21:47:05.754Z
 tags: 
 ---
 
