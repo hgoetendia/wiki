@@ -2,7 +2,7 @@
 title: Linux
 description: 
 published: true
-date: 2020-02-07T20:07:03.446Z
+date: 2020-04-16T18:27:01.637Z
 tags: 
 ---
 
@@ -22,6 +22,8 @@ tags:
 * [dos2unix](/linux/dos2unix)
 * [netcat-nc](/linux/netcat)
 * [lsof](/linux/lsof)
+* [awk](/linux/awk)
+
 
 # Bash
 * [Prompt](/linux/bash/prompt)
