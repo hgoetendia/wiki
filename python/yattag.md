@@ -2,8 +2,8 @@
 title: YATTAG
 description: Generate HTML or XML in a pythonic way. Pure python alternative to web template engines.Can fill HTML forms with default values and error messages.
 published: true
-date: 2020-04-18T13:16:42.030Z
-tags: html, xml, tags, tag
+date: 2020-04-18T13:19:14.668Z
+tags: html, xml, tag, tags
 ---
 
 ```python
