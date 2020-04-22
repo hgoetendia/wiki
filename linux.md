@@ -2,7 +2,7 @@
 title: Linux
 description: 
 published: true
-date: 2020-04-16T18:27:01.637Z
+date: 2020-04-22T18:13:29.142Z
 tags: 
 ---
 
@@ -23,6 +23,7 @@ tags:
 * [netcat-nc](/linux/netcat)
 * [lsof](/linux/lsof)
 * [awk](/linux/awk)
+* [LD_LIBRARY_PATH](/linux/libpath)
 
 
 # Bash
