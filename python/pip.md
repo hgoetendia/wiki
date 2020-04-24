@@ -2,7 +2,7 @@
 title: Pip
 description: 
 published: true
-date: 2020-04-24T21:52:50.927Z
+date: 2020-04-24T21:53:18.255Z
 tags: 
 ---
 
