@@ -2,7 +2,7 @@
 title: Pip
 description: 
 published: true
-date: 2019-10-28T00:47:02.653Z
+date: 2020-04-24T21:52:50.927Z
 tags: 
 ---
 
@@ -84,6 +84,15 @@ six==1.10
 
 ```sh
 $ pip install -r requirements.txt
+```
+
+# Generate a requirements file from current enviroment
+
+Generate a requirements file and then install from it in another environment.
+
+```sh
+$ env1/bin/pip freeze > requirements.txt
+$ env2/bin/pip install -r requirements.txt
 ```
 
 
