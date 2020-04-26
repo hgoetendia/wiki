@@ -2,7 +2,7 @@
 title: Letsencrypt
 description: 
 published: true
-date: 2019-10-28T00:43:06.536Z
+date: 2020-04-26T17:25:31.613Z
 tags: 
 ---
 
@@ -35,14 +35,15 @@ Check the version.
 
 Obtain RSA and ECDSA certificates for your domain/hostname.
 
-With Nginx 
+In `/usr/share/nginx/html` will be the verification files needed to check that you are the owner of the domain.
 
 ```sh
 #As simple user
 # RSA 2048
 sudo /etc/letsencrypt/acme.sh --issue --home /etc/letsencrypt -d www.example.com --webroot /usr/share/nginx/html --reloadcmd "sudo systemctl reload nginx.service" --accountemail your_email@example.com --ocsp-must-staple --keylength 2048
 # ECDSA/ECC P-256
-sudo /etc/letsencrypt/acme.sh --issue --home /etc/letsencrypt -d www.example.com --webroot /usr/share/nginx/html --reloadcmd "sudo systemctl reload nginx.service" --accountemail your_email@example.com --ocsp-must-staple --keylength ec-256 
+# As root execute this:
+/etc/letsencrypt/acme.sh --issue --home /etc/letsencrypt -d www.example.com --webroot /usr/share/nginx/html --reloadcmd "sudo systemctl reload nginx.service" --accountemail your_email@example.com --ocsp-must-staple --keylength ec-256 
 ```
 
 After running the above commands, your certificates and keys will be in the following directories:
