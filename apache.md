@@ -2,7 +2,7 @@
 title: Apache
 description: Web server
 published: true
-date: 2020-04-26T17:57:18.552Z
+date: 2020-04-26T18:40:38.934Z
 tags: http, httpd, apache
 ---
 
@@ -26,4 +26,23 @@ cat test-site.conf
     SSLCertificateFile    /etc/letsencrypt/myweb.com_ecc/fullchain.cer
     SSLCertificateKeyFile  /etc/letsencrypt/myweb.com_ecc/thehappymoon.com.key
 </VirtualHost>
+```
+
+
+# AH00132: file permissions deny server access: /var/www/html/index.html
+
+Try check the existing permissions on the file:
+```
+ls -l index.html
+```
+Fix them if necessary:
+```
+chmod 644 index.html
+```
+
+If all the standard permissions are correct and you still get a Permission Denied error, you should check for extended-permissions. For example you can use the command setenforce 0 to turn off SELinux and check to see if the problem goes away. If so, ls -alZ can be used to view SELinux permission and chcon to fix them.
+
+Eg:
+```
+sudo chcon -R -v -t httpd_sys_rw_content_t index.html
 ```
