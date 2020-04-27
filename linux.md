@@ -2,7 +2,7 @@
 title: Linux
 description: 
 published: true
-date: 2020-04-22T18:13:29.142Z
+date: 2020-04-27T16:22:29.343Z
 tags: 
 ---
 
@@ -24,7 +24,7 @@ tags:
 * [lsof](/linux/lsof)
 * [awk](/linux/awk)
 * [LD_LIBRARY_PATH](/linux/libpath)
-
+* [Packages](/linux/packages)
 
 # Bash
 * [Prompt](/linux/bash/prompt)
