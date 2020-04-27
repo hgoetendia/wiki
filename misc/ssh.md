@@ -2,7 +2,7 @@
 title: SSH
 description: 
 published: true
-date: 2020-04-27T16:56:25.719Z
+date: 2020-04-27T17:16:20.462Z
 tags: 
 ---
 
@@ -221,3 +221,20 @@ The key's randomart image is:
 +----[SHA256]-----+
 ~$
 ```
+
+
+### IN GCP
+
+Generate ssh key using
+```sh
+$ ssh-keygen
+```
+
+Copy the key.pub file contents
+
+Append the contents to ~/.ssh/authorized_keys file
+
+```sh
+$ sudo nano ~/.ssh/authorized_keys
+```
+
