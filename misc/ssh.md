@@ -2,7 +2,7 @@
 title: SSH
 description: 
 published: true
-date: 2019-10-28T00:43:19.355Z
+date: 2020-04-27T16:56:25.719Z
 tags: 
 ---
 
@@ -194,3 +194,30 @@ Host *
 		
 That will make sure SSH never even tries anything with IPv6.
 
+
+## Permission denied (publickey)
+```sh
+myuser@myserver:~$ scp  user@10.128.10.6:/home/something/*.txt ./ 
+Permission denied (publickey).
+```
+
+Generate your key
+```sh
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/myuser/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/hgoetendia/.ssh/id_rsa.
+Your public key has been saved in /home/hgoetendia/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:84VxMicJIL5easdgfsdfghtghjgfhh4rgqVwHX2C8c3GeZVb myuser@myserver
+The key's randomart image is:
++---[RSA 2048]----+
+|    . ...    .   |
+|...ooo+. o+.o    |
+| o..oo   ... .   |
+|o . .    ++ o    |
++----[SHA256]-----+
+~$
+```
