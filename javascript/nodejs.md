@@ -2,7 +2,7 @@
 title: Nodejs
 description: 
 published: true
-date: 2020-05-04T17:45:38.245Z
+date: 2020-05-04T18:27:57.507Z
 tags: 
 ---
 
@@ -91,7 +91,7 @@ npm i express express-session
 npm i -D nodemon standard
 ```
 
-App.js
+app.js
 
 ```js
 const express = require('express')
@@ -147,3 +147,10 @@ Starting
 [nodemon] starting `node app.js`
 http://localhost:3000
 ```
+
+
+Update app.js based in `express-session` documentation
+
+
+https://www.npmjs.com/package/express-session
+
