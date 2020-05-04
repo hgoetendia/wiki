@@ -2,7 +2,7 @@
 title: Nodejs
 description: 
 published: true
-date: 2019-10-28T00:40:43.194Z
+date: 2020-05-04T17:45:38.245Z
 tags: 
 ---
 
@@ -57,3 +57,93 @@ sysctl -p
 ```
 
 to read the new setting.
+
+
+# Start a project
+
+## Initialize
+ -y/--yes to skip the questionnaire altogether.
+
+```
+$ npm init -y
+
+Wrote to /home/XXX/XXX/XX/XXXX/package.json:      
+                                                           
+{                                                          
+  "name": "XXXX",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}                                                          
+```
+## Handle sessions
+
+-D, --save-dev : package will apear in devDependencies 
+
+```
+npm i express express-session
+npm i -D nodemon standard
+```
+
+App.js
+
+```js
+const express = require('express')
+const session = require('express-session')
+
+const {
+  PORT = 3000
+} = process.env
+
+const app = express()
+
+app.listen(PORT, () => console.log(`http://localhost:${PORT}`))
+```
+
+packages.json
+
+Change line 7 from `test` to `dev` and `nodemon app`
+
+```json
+{
+  "name": "jarlok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "standard": "^14.3.3"
+  }
+}
+```
+Starting
+
+```sh
+[mycompu]$ npm run dev
+
+> jarlok@1.0.0 dev /home/XXX/XXX/XXX/XXX
+> nodemon app
+
+[nodemon] 2.0.3
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node app.js`
+http://localhost:3000
+```
