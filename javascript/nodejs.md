@@ -2,7 +2,7 @@
 title: Nodejs
 description: 
 published: true
-date: 2020-05-04T18:27:57.507Z
+date: 2020-05-05T02:32:23.867Z
 tags: 
 ---
 
@@ -148,9 +148,20 @@ Starting
 http://localhost:3000
 ```
 
-
 Update app.js based in `express-session` documentation
 
-
 https://www.npmjs.com/package/express-session
+```js
+var app = express()
+app.set('trust proxy', 1) // trust first proxy
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: true }
+}))
+```
+
+app.js
+<script src="https://gist.github.com/hgoetendia/f1de538507e8efee16ae5291436c1941.js"></script>
 
