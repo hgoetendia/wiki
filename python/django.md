@@ -2,7 +2,7 @@
 title: Django Framework
 description: 
 published: true
-date: 2020-05-14T23:29:25.335Z
+date: 2020-05-14T23:52:54.706Z
 tags: django, python, framework
 ---
 
@@ -26,7 +26,7 @@ python -m django --version
 Start a project
 
 ```
-django-admin startproject jarlok
+django-admin startproject jarlok .
 ```
 
 Create application
