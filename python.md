@@ -2,7 +2,7 @@
 title: Python
 description: 
 published: true
-date: 2020-04-18T13:05:24.704Z
+date: 2020-05-14T22:33:24.784Z
 tags: 
 ---
 
@@ -21,3 +21,4 @@ tags:
 * [MySQL](/python/mysql)
 * [Debugger](/python/debugger)
 * [Yattag](/python/yattag)
+* [Django](/python/django)
