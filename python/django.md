@@ -2,7 +2,7 @@
 title: Django Framework
 description: 
 published: true
-date: 2020-05-15T16:54:50.488Z
+date: 2020-05-15T18:22:59.280Z
 tags: django, python, framework
 ---
 
@@ -129,6 +129,43 @@ pip install django-cors-headers
 pip install djangorestframework-jwt
 ```
 
+Create django project
+
+```
+django-admin.py startproject myProj .
+```
+Go to project and create app
+```
+cd myProj
+django-admin.py startapp myapp
+
+$ tree
+
+myProj/
+ |-- myapp/
+ |    |-- migrations/
+ |    |-- __init__.py
+ |    |-- admin.py
+ |    |-- apps.py
+ |    |-- models.py
+ |    |-- tests.py
+ |    +-- views.py
+ |-- __init__.py
+ |-- settings.py
+ |-- urls.py
+ +-- wsgi.py
+manage.py
+```
+
+In the `settings.py` file, add the following configurations:
+
+```
+REST_FRAMEWORK = {
+  'DEFAULT_AUTHENTICATION_CLASSES': (
+    'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+  ),
+}
+```
 
 Database:
 
@@ -146,10 +183,113 @@ GRANT
 postgres=# 
 ```
 
-Install the psycopg2 package, which will allow us to use the database we configured:
+Install the `psycopg2` package, which will allow us to use the database we configured:
 
 ```
 pip install wheel
 pip install psycopg2
 ```
+
+Edit `settings.py`
+
+Remove this
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+```
+And add this
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'mydatabase',
+        'USER': 'myuser',
+        'PASSWORD': 'seronoser',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
+```
+
+Edit `models.py` like this:
+
+```py
+# users/models.py
+from __future__ import unicode_literals
+from django.db import models
+from django.utils import timezone
+from django.contrib.auth.models import (
+    AbstractBaseUser, PermissionsMixin, BaseUserManager
+)
+
+
+class UserManager(BaseUserManager):
+
+    def _create_user(self, email, password, **extra_fields):
+        """
+        Creates and saves a User with the given email,and password.
+        """
+        if not email:
+            raise ValueError('The given email must be set')
+        try:
+            with transaction.atomic():
+                user = self.model(email=email, **extra_fields)
+                user.set_password(password)
+                user.save(using=self._db)
+                return user
+        except:
+            raise
+
+    def create_user(self, email, password=None, **extra_fields):
+        extra_fields.setdefault('is_staff', False)
+        extra_fields.setdefault('is_superuser', False)
+        return self._create_user(email, password, **extra_fields)
+
+    def create_superuser(self, email, password, **extra_fields):
+        extra_fields.setdefault('is_staff', True)
+        extra_fields.setdefault('is_superuser', True)
+
+        return self._create_user(email, password=password, **extra_fields)
+
+
+class User(AbstractBaseUser, PermissionsMixin):
+    """
+    An abstract base class implementing a fully featured User model with
+    admin-compliant permissions.
+ 
+    """
+    email = models.EmailField(max_length=40, unique=True)
+    first_name = models.CharField(max_length=30, blank=True)
+    last_name = models.CharField(max_length=30, blank=True)
+    is_active = models.BooleanField(default=True)
+    is_staff = models.BooleanField(default=False)
+    date_joined = models.DateTimeField(default=timezone.now)
+ 
+    objects = UserManager()
+ 
+    USERNAME_FIELD = 'email'
+    REQUIRED_FIELDS = ['first_name', 'last_name']
+ 
+    def save(self, *args, **kwargs):
+        super(User, self).save(*args, **kwargs)
+        return self
+```
+
+Edit `settings.py` and add 
+
+```
+AUTH_USER_MODEL='myProj.User'
+```
+
+In myProj directory run
+```
+python manage.py makemigrations myapp
+python manage.py migrate
+```
+
+
 
