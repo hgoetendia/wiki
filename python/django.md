@@ -2,7 +2,7 @@
 title: Django Framework
 description: 
 published: true
-date: 2020-05-15T00:07:14.253Z
+date: 2020-05-15T16:54:50.488Z
 tags: django, python, framework
 ---
 
@@ -23,7 +23,7 @@ python -m django --version
 3.0.6
 ```
 
-Start a project
+# Start a project
 
 ```
 django-admin startproject jarlok .
@@ -118,3 +118,38 @@ Check
 ```
  http://127.0.0.1:8000/ 
  ```
+ 
+ # Start JWT (JSON Web Token) project
+ 
+ 
+```
+pip install django
+pip install djangorestframework
+pip install django-cors-headers
+pip install djangorestframework-jwt
+```
+
+
+Database:
+
+```
+$ sudo apt-get install postgresql postgresql-contrib postgresql-server-dev-11
+$ sudo su postgres
+$ psql
+
+postgres=# create database mydatabase;
+CREATE DATABASE
+postgres=# CREATE ROLE myuser WITH LOGIN PASSWORD 'seronoser';
+CREATE ROLE
+postgres=# grant ALL PRIVILEGES ON DATABASE mydatabase TO myuser;
+GRANT
+postgres=# 
+```
+
+Install the psycopg2 package, which will allow us to use the database we configured:
+
+```
+pip install wheel
+pip install psycopg2
+```
+
