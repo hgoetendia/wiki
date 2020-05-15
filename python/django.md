@@ -2,7 +2,7 @@
 title: Django Framework
 description: 
 published: true
-date: 2020-05-15T18:34:28.984Z
+date: 2020-05-15T18:41:41.883Z
 tags: django, python, framework
 ---
 
