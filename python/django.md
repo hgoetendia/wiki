@@ -2,7 +2,7 @@
 title: Django Framework
 description: 
 published: true
-date: 2020-05-15T18:22:59.280Z
+date: 2020-05-15T18:34:28.984Z
 tags: django, python, framework
 ---
 
@@ -220,7 +220,7 @@ Edit `models.py` like this:
 ```py
 # users/models.py
 from __future__ import unicode_literals
-from django.db import models
+from django.db import models, transaction
 from django.utils import timezone
 from django.contrib.auth.models import (
     AbstractBaseUser, PermissionsMixin, BaseUserManager
@@ -291,5 +291,22 @@ python manage.py makemigrations myapp
 python manage.py migrate
 ```
 
-
+Tables automatically created
+```
+mydatabase=# \dt
+                        List of relations
+ Schema |             Name              | Type  |     Owner      
+--------+-------------------------------+-------+----------------
+ public | auth_group                    | table | gopher_backend
+ public | auth_group_permissions        | table | gopher_backend
+ public | auth_permission               | table | gopher_backend
+ public | myapp_user                    | table | gopher_backend
+ public | myapp_user_groups             | table | gopher_backend
+ public | myapp_user_user_permissions   | table | gopher_backend
+ public | django_admin_log              | table | gopher_backend
+ public | django_content_type           | table | gopher_backend
+ public | django_migrations             | table | gopher_backend
+ public | django_session                | table | gopher_backend
+(10 rows)
+```
 
