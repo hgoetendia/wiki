@@ -2,7 +2,7 @@
 title: Iptables
 description: 
 published: true
-date: 2019-10-28T00:41:17.539Z
+date: 2020-05-23T20:23:13.633Z
 tags: 
 ---
 
@@ -58,3 +58,12 @@ num  target     prot opt source               destination
 
 
 
+# Block IP
+```text
+iptables -A INPUT -s 209.175.453.23 -j DROP
+```
+
+# Block IP and destination port
+```text
+iptables -A INPUT -s 209.175.453.23 -p tcp --destination-port 22 -j DROP
+```
