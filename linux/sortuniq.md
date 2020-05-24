@@ -2,7 +2,7 @@
 title: Sort uniq
 description: A quick summary of Sortuniq
 published: true
-date: 2019-10-28T00:42:09.191Z
+date: 2020-05-24T02:48:01.601Z
 tags: 
 ---
 
@@ -51,7 +51,7 @@ unixite@sandbox:~$ sort test.txt  | uniq -c
      12 one
       1 three
       8 two
-unixite@sandbox:~$ sort test.txt  | uniq -c | sort -n -r
+unixite@sandbox:~$ sort test.txt  | sort -n -r | uniq -c 
      12 one
       8 two
       4 five
