@@ -2,7 +2,7 @@
 title: THM
 description: The happy moon
 published: true
-date: 2020-01-17T15:55:10.576Z
+date: 2020-05-26T23:24:19.720Z
 tags: 
 ---
 
@@ -34,7 +34,7 @@ tags:
 
 * [MySQL](/mysql)
 * [PostgreSQL](/postgresql)
-
+* [Redis](/redis)
 
 # TCP/IP
 
