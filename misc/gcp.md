@@ -2,7 +2,7 @@
 title: Google cloud platform GCP
 description: GCP
 published: true
-date: 2020-03-10T14:03:04.633Z
+date: 2020-05-26T22:23:45.976Z
 tags: 
 ---
 
@@ -75,5 +75,5 @@ FROM
 ## Load (append) data to big query
 
 ```sql
-bq --project myProject load --source_format=CSV --noreplace --field_delimiter='|' --skip_leading_rows 1 myDataset.myTable gs://XXXX/XXXXX/XXXX.csv.gz
+bq --project-id myProject load --source_format=CSV --noreplace --field_delimiter='|' --skip_leading_rows 1 myDataset.myTable gs://XXXX/XXXXX/XXXX.csv.gz
 ```
