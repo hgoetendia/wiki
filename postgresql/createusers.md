@@ -2,7 +2,7 @@
 title: Creating users / databases
 description: 
 published: true
-date: 2020-01-09T20:26:57.484Z
+date: 2020-05-26T16:06:04.247Z
 tags: 
 ---
 
@@ -58,7 +58,7 @@ As postgres user
 bash-4.2$ createdb mydb
 ```
 
-# Setting password and privileges
+# Setting password (or changing) and privileges
 
 ```pgsql
 bash-4.2$ psql
