@@ -2,20 +2,20 @@
 title: Docker
 description: All containers are run by a single operating system kernel and therefore use fewer resources than virtual machines.
 published: true
-date: 2020-05-30T20:07:06.090Z
+date: 2020-05-30T20:09:44.262Z
 tags: docker, container
 ---
 
 Docker has two parts, one daemon and a client, we will work in console with Docker client.
 
-# Docker daemon 
 
-## Installing
+
+# Installing
 ```
 sudo apt-get install docker.io
 ```
 
-## Starting
+# Starting
 ```
 sudo systemctl start docker
 ```
