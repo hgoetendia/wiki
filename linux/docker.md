@@ -2,7 +2,7 @@
 title: Docker
 description: All containers are run by a single operating system kernel and therefore use fewer resources than virtual machines.
 published: true
-date: 2020-05-30T19:06:58.354Z
+date: 2020-05-30T20:07:06.090Z
 tags: docker, container
 ---
 
@@ -195,4 +195,54 @@ $ sudo docker ps -a
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 8689364950a8        busybox             "sh"                20 seconds ago      Up 18 seconds                           nostalgic_williamson
 4374d269edae        busybox             "sh"                44 minutes ago      Up 44 minutes                           laughing_heisenberg
+```
+
+# Command list
+
+Searching an image:
+```
+sudo docker search debian
+```
+
+Downloading an image:
+```
+sudo docker pull debian
+```
+
+Runing container from an image:
+
+```
+sudo docker run -it debian bash
+```
+
+Check containers / status / info:
+
+```
+sudo docker ps -a
+```
+
+A stoped container , previously created ( STATUS Exited ), can be started with docker start):
+
+```
+sudo docker start ID (or name)
+```
+
+Entering in a container:
+```
+sudo docker attach ID (or name)
+```
+
+Stoping a container:
+```
+sudo docker stop ID (o nombre)
+```
+Removing a container:
+```
+sudo docker rm ID (o nombre)
+```
+
+
+Save an new image  from a modified container:
+```
+sudo docker commit -m “my coment” -a myAuthor ID myNewName
 ```
