@@ -2,7 +2,7 @@
 title: Emacs
 description: 
 published: true
-date: 2019-11-02T04:41:37.949Z
+date: 2020-05-30T23:31:25.571Z
 tags: 
 ---
 
@@ -26,3 +26,6 @@ tags:
 ---
 * [Term mode](/emacs/term)
 
+--
+
+* [Markdown mode](/emacs/markdown)
