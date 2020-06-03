@@ -2,7 +2,7 @@
 title: Emacs
 description: 
 published: true
-date: 2020-05-30T23:31:25.571Z
+date: 2020-06-03T17:39:55.089Z
 tags: 
 ---
 
@@ -29,3 +29,4 @@ tags:
 --
 
 * [Markdown mode](/emacs/markdown)
+* [JSON](/emacs/json)
