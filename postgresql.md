@@ -2,7 +2,7 @@
 title: PostgreSQL
 description: 
 published: true
-date: 2019-10-28T03:16:20.534Z
+date: 2020-06-12T00:36:36.126Z
 tags: 
 ---
 
@@ -17,3 +17,4 @@ tags:
 * [Create types](/postgresql/createtypes)
 * [Executing queryes](/postgresql/executeqry)
 * [Replication](/postgresql/replication)
+* [Misco](/postgresql/misc)
