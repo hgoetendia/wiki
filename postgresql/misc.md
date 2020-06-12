@@ -2,7 +2,7 @@
 title: Misco
 description: 
 published: true
-date: 2020-06-12T00:41:41.484Z
+date: 2020-06-12T00:47:36.280Z
 tags: postgresql, select tables , query, querys
 ---
 
