@@ -2,7 +2,7 @@
 title: Misco
 description: 
 published: true
-date: 2020-06-12T00:39:26.242Z
+date: 2020-06-12T00:41:41.484Z
 tags: postgresql, select tables , query, querys
 ---
 
@@ -21,4 +21,10 @@ WHERE
 ORDER BY
     table_name,
     table_schema;
+```
+
+# Select yesterday
+
+``` sql
+SELECT DATE( NOW() - INTERVAL '1 day');
 ```
