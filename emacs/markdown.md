@@ -2,7 +2,7 @@
 title: Markdown and live mode
 description: 
 published: true
-date: 2020-06-15T22:29:23.549Z
+date: 2020-06-15T22:43:02.509Z
 tags: markdown, emacs, impatient, impatient-mode, http-start
 ---
 
