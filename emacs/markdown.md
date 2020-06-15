@@ -2,7 +2,7 @@
 title: Markdown and live mode
 description: 
 published: true
-date: 2020-05-30T23:43:18.838Z
+date: 2020-06-15T22:29:23.549Z
 tags: markdown, emacs, impatient, impatient-mode, http-start
 ---
 
@@ -22,6 +22,11 @@ Install impatient-mode with
 M-x package-install RET impatient-mode RET
 ```
 
+Add the current buffer to impatient server
+
+```
+M-x impatient-mode RET
+```
 
 given you have configured package.el to use the melpa repository.
 Start an emacs' web server with:
