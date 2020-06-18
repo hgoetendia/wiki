@@ -2,7 +2,7 @@
 title: Google cloud platform GCP
 description: GCP
 published: true
-date: 2020-06-18T17:07:26.009Z
+date: 2020-06-18T17:15:09.131Z
 tags: 
 ---
 
