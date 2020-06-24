@@ -2,7 +2,7 @@
 title: Compression
 description: 
 published: true
-date: 2020-06-24T22:33:07.034Z
+date: 2020-06-24T22:33:18.521Z
 tags: gzip, bzip, bzip2, tar, zip, unzip, zcat, zgrep, pkzip, arj, rar, unrar, compress, compression, tgz, tbz, xz, cpio
 ---
 
