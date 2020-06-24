@@ -2,7 +2,7 @@
 title: Linux
 description: 
 published: true
-date: 2020-05-30T17:53:23.963Z
+date: 2020-06-24T22:30:06.323Z
 tags: 
 ---
 
@@ -25,6 +25,7 @@ tags:
 * [awk](/linux/awk)
 * [LD_LIBRARY_PATH](/linux/libpath)
 * [Packages](/linux/packages)
+* [Compression](/linux/compression)
 
 # Containers
 
