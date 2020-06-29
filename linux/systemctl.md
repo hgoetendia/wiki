@@ -2,7 +2,7 @@
 title: Services using systemctl
 description: 
 published: true
-date: 2020-06-29T14:51:14.035Z
+date: 2020-06-29T14:54:01.266Z
 tags: sytemctl, service, services
 ---
 
