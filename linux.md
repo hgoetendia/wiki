@@ -2,7 +2,7 @@
 title: Linux
 description: 
 published: true
-date: 2020-06-26T18:10:40.827Z
+date: 2020-06-29T14:33:47.241Z
 tags: 
 ---
 
@@ -28,7 +28,7 @@ tags:
 * [Compression](/linux/compression)
 * [Images processing](/linux/imagesprocessing)
 * [SELinux](/linux/selinux)
-
+* [Systemctl](/linux/systemctl)
 # Containers
 
 * [Docker](/linux/docker)
