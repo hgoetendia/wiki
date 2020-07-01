@@ -2,9 +2,14 @@
 title: Debugging PERL
 description: 
 published: true
-date: 2020-07-01T18:06:43.609Z
+date: 2020-07-01T18:20:36.358Z
 tags: debug, perl debug, perl
 ---
+
+# In Bash
+```
+perl -d myFile.pl
+```
 
 # In EMACS
 
