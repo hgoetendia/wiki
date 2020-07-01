@@ -2,8 +2,8 @@
 title: Debugging PERL
 description: 
 published: true
-date: 2019-10-28T00:45:19.817Z
-tags: 
+date: 2020-07-01T18:06:43.609Z
+tags: debug, perl debug, perl
 ---
 
 # In EMACS
