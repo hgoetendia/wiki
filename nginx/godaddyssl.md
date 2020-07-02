@@ -2,11 +2,11 @@
 title: Godaddy SSL Certs with NGINX
 description: 
 published: true
-date: 2019-10-28T00:45:06.275Z
+date: 2020-07-02T20:27:32.594Z
 tags: 
 ---
 
-Find de key file that godday gaves you `example.com.key` then donwload the zip cert file in godaddy web.
+Find de key file that godday gave you `example.com.key` then donwload the zip cert file in godaddy web.
 
 Join the files
 ```sh
