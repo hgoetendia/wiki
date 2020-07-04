@@ -2,7 +2,7 @@
 title: SELinux
 description: 
 published: true
-date: 2020-06-26T18:18:46.577Z
+date: 2020-07-04T00:02:40.403Z
 tags: selinux
 ---
 
@@ -42,7 +42,7 @@ usage:  setenforce [ Enforcing | Permissive | 1 | 0 ]
 ```
 sudo setenforce 0
 ```
-
+or
 ```
 sudo setenforce Permissive
 ```
