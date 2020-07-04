@@ -2,7 +2,7 @@
 title: SELinux
 description: 
 published: true
-date: 2020-07-04T00:02:40.403Z
+date: 2020-07-04T00:47:02.967Z
 tags: selinux
 ---
 
