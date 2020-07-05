@@ -2,7 +2,7 @@
 title: Replication / Dump and restore
 description: 
 published: true
-date: 2020-07-05T20:29:42.309Z
+date: 2020-07-05T20:46:05.908Z
 tags: mysqldump, replication, master, slave
 ---
 
@@ -23,4 +23,9 @@ hint:
 ```bash
 zcat all.masterNode_20200705.dmp.gz|grep MASTER_LOG_FILE 
 CHANGE MASTER TO MASTER_LOG_FILE='unfile-binlog.954868', MASTER_LOG_POS=106;
+```
+
+# Restore
+```
+mysql -umyUser -p < all.masterNode_20200705.dmp
 ```
