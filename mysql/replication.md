@@ -2,7 +2,7 @@
 title: Replication / Dump and restore
 description: 
 published: true
-date: 2020-07-05T20:46:05.908Z
+date: 2020-07-05T23:09:26.004Z
 tags: mysqldump, replication, master, slave
 ---
 
