@@ -2,7 +2,7 @@
 title: Tmux
 description: A quick summary of Tmux
 published: true
-date: 2020-07-04T22:50:08.346Z
+date: 2020-07-06T18:28:29.551Z
 tags: 
 ---
 
@@ -41,6 +41,9 @@ bind-key -n  -T copy-mode M-w  \
 # History
 set-option -g history-limit 100000
 
+# Copy mode jump word forward backward like emacs and bash
+bind -n C-Left send-key M-b
+bind -n C-Right send-key M-f
 
 ######################
 ### DESIGN CHANGES ###
@@ -127,6 +130,17 @@ set -g set-clipboard on
 set-option -g history-limit 100000
 
 
+# Copy mode emacs style
+
+#set -gw mode-keys emacs
+#set -g status-keys emacs
+#set -g mode-keys emacs
+#set -g status-keys emacs
+
+# Copy mode jump word forward backward like emacs and bash
+bind -n C-Left send-key M-b
+bind -n C-Right send-key M-f
+
 ######################
 ### DESIGN CHANGES ###
 ######################
@@ -157,7 +171,7 @@ set -g status-position bottom
 set -g status-justify left
 set -g status-style 'bg=colour19 fg=colour255 dim'
 set -g status-left ''
-set -g status-right '#[fg=colour255,bg=colour20] TiaxaVPN:#{tiaxavpn_status} Internet:#{online_status}  %d/%m #[fg=colour255,bg=colour20] %H:%M:%S '
+set -g status-right '#[fg=colour255,bg=colour20] TiaxaVPN:#{tiaxavpn_status}  Internet:#{online_status}  %d/%m #[fg=colour255,bg=colour20] %H:%M:%S '
 set -g status-right-length 50
 set -g status-left-length 20
 
@@ -175,6 +189,6 @@ setw -g window-status-bell-style 'fg=colour255 bg=colour1 bold'
 set -g message-style 'fg=colour255 bg=colour16 bold'
 
 # Personal scripts launch
-#run-shell /home/horacio/tmuxplugins/tmuxonline/online_status.tmux
-#run-shell /home/horacio/tmuxplugins/tmuxtiaxavpn/online_status.tmux
+run-shell /home/horacio/tmuxplugins/tmuxonline/online_status.tmux
+run-shell /home/horacio/tmuxplugins/tmuxtiaxavpn/online_status.tmux
 ```
