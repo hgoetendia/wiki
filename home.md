@@ -2,7 +2,7 @@
 title: THM
 description: The happy moon
 published: true
-date: 2020-07-07T02:22:43.447Z
+date: 2020-07-07T02:22:57.630Z
 tags: 
 ---
 
@@ -67,7 +67,7 @@ tags:
 * [RRDTool](/misc/rrdtool)
 * [Airflow](/misc/airflow)
 * [Google Clould Plataform (GCP)](/misc/gcp)
-* [Xyomn](/misc/xymon)
+* [Xymon](/misc/xymon)
 # Usefull tools
 
 * [Python tutor (Simulators)](http://pythontutor.com)
