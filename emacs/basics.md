@@ -2,7 +2,7 @@
 title: Emacs/Basics
 description: 
 published: true
-date: 2020-07-18T22:47:48.265Z
+date: 2020-07-18T22:48:26.531Z
 tags: 
 ---
 
@@ -724,6 +724,7 @@ When press key 'End' and shows get an error `<select> is undefined`
 
 ;(global-linum-mode 1)
 (add-hook 'prog-mode-hook 'linum-mode)
+(setq linum-format "%3d ")
 
 ;;;;;;;;;;;;;;;Autocomplete
 (require 'auto-complete)
