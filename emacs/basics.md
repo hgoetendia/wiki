@@ -2,7 +2,7 @@
 title: Emacs/Basics
 description: 
 published: true
-date: 2020-07-18T22:48:26.531Z
+date: 2020-07-19T01:29:42.790Z
 tags: 
 ---
 
@@ -594,7 +594,7 @@ When press key 'End' and shows get an error `<select> is undefined`
 (set-face-foreground 'font-lock-comment-face "Red" )
 (set-variable font-lock-comment-face 'font-lock-comment-face)
 
-; Habilito los colores de emacs en modo dark
+;Habilito los colores de emacs en modo dark
 (setq frame-background-mode 'dark)
 
 
@@ -602,8 +602,8 @@ When press key 'End' and shows get an error `<select> is undefined`
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;JAVASCRIPT AND REACTJS;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;TIDE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Setup-tide-mode
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;TIDE(for typescript);;;;;;;;;;;;;;;;;;;;;;;;;
+; Setup-tide-mode
 (defun setup-tide-mode ()
   (interactive)
   (tide-setup)
@@ -616,18 +616,20 @@ When press key 'End' and shows get an error `<select> is undefined`
   ;; `M-x package-install [ret] company`
   (company-mode +1))
 
+
 ;; Aligns annotation to the right hand side
 (setq company-tooltip-align-annotations t)
 
 ;; Formats the buffer before saving
 (add-hook 'before-save-hook 'tide-format-before-save)
 
-(add-hook 'typescript-mode-hook #'setup-tide-mode)
+; (add-hook 'typescript-mode-hook #'setup-tide-mode)
 
 ;; Format options
 (setq tide-format-options
       '(:insertSpaceAfterFunctionKeywordForAnonymousFunctions t
         :placeOpenBraceOnNewLineForFunctions nil))
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;RJSX;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -637,29 +639,20 @@ When press key 'End' and shows get an error `<select> is undefined`
 ;;;;;;;;;;;;;;;;;;;;;;; Cargar archivos .tsx en rjsx-mode
 (add-to-list 'auto-mode-alist '("\\.tsx\\'" . rjsx-mode))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;Linking RJSX and TIDE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;Linking RJSX and TIDE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Replace tab for 2 spaces identation in rjsx-mode, and invoke setup-tide-mode
 (add-hook 'rjsx-mode-hook
           (lambda ()
             (setq indent-tabs-mode nil) ;;Use space instead of tab
             (setq js-indent-level 2) ;;space width is 2 (default is 4)
             (setq js2-strict-missing-semi-warning nil) ;;disable semicolon warning
-            (when (string-equal "js" (file-name-extension buffer-file-name))
+             (when (string-equal "js" (file-name-extension buffer-file-name))
               (setup-tide-mode)) ;; call setup-tide-mode
-            (when (string-equal "jsx" (file-name-extension buffer-file-name))
-              (setup-tide-mode)) ;; call setup-tide-mode 
+             (when (string-equal "jsx" (file-name-extension buffer-file-name))
+              (setup-tide-mode)) ;; call setup-tide-mode
+             (when (string-equal "ts" (file-name-extension buffer-file-name))
+              (setup-tide-mode)) ;; call setup-tide-mode            
 	    ))
-
-
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (helm-projectile ibuffer-vc xclip dired-subtree diredful dired-rainbow projectile undo-tree pdf-tools json-navigator json-mode impatient-mode markdown-mode ibuffer-sidebar sql-indent tide yasnippet web-mode rjsx-mode neotree magit flycheck company-tern auto-complete))))
 
 
 ;;MYSQL
@@ -724,12 +717,12 @@ When press key 'End' and shows get an error `<select> is undefined`
 
 ;(global-linum-mode 1)
 (add-hook 'prog-mode-hook 'linum-mode)
-(setq linum-format "%3d ")
+;(setq linum-format "%4d ")
+(setq linum-format "%4d\u2502 ")
 
 ;;;;;;;;;;;;;;;Autocomplete
 (require 'auto-complete)
 (global-auto-complete-mode t)
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Compilacion;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -755,6 +748,8 @@ When press key 'End' and shows get an error `<select> is undefined`
 
 
 (global-flycheck-mode)
+(add-hook 'after-init-hook #'global-flycheck-mode)
+(set-face-attribute 'flycheck-error nil :underline '(:color "red1" :style wave))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MARKDOWN;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -964,5 +959,5 @@ When press key 'End' and shows get an error `<select> is undefined`
  (lambda ()
       (setq pcomplete-cycle-completions nil)))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ```
