@@ -2,7 +2,7 @@
 title: Emacs/Basics
 description: 
 published: true
-date: 2020-07-19T03:06:50.761Z
+date: 2020-07-19T03:11:27.141Z
 tags: 
 ---
 
@@ -747,9 +747,19 @@ When press key 'End' and shows get an error `<select> is undefined`
 (setq column-number-mode t)
 
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;FLYCHECK;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 (global-flycheck-mode)
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (set-face-attribute 'flycheck-error nil :underline '(:color "red1" :style wave))
+
+;;;Para que el modeline tenga el color del analisis del flycheck
+(require 'flycheck-color-mode-line)
+
+(eval-after-load "flycheck"
+      '(add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MARKDOWN;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -876,12 +886,6 @@ When press key 'End' and shows get an error `<select> is undefined`
 
 
 
-
-
-
-
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; PROJECTILE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -962,32 +966,19 @@ When press key 'End' and shows get an error `<select> is undefined`
 
 
 
-(require 'flycheck-color-mode-line)
-
-(eval-after-load "flycheck"
-    '(add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode))
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (powerline yasnippet xclip web-mode undo-tree tide sql-indent rjsx-mode pdf-tools neotree markdown-mode magit json-navigator json-mode impatient-mode ibuffer-vc ibuffer-sidebar helm-projectile flycheck-color-mode-line diredful dired-subtree dired-rainbow company-tern auto-complete))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
 
 
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;MODELINE (LA BARRA DE LA PARTE INFERIOR);;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;(custom-set-faces
 ;    '(mode-line ((t (:box (:line-width 2 :color "red"))))))
+(custom-set-faces
+     '(mode-line-inactive ((t (:box (:line-width 2 :color "red"))))))
 
-
+;;;
 (set-face-attribute 'mode-line nil
                     :background "gray15"
                     :foreground "white"
@@ -1003,7 +994,6 @@ When press key 'End' and shows get an error `<select> is undefined`
                     ;:overline nil
                     ;:underline nil)
 
-(custom-set-faces
-    '(mode-line-inactive ((t (:box (:line-width 2 :color "red"))))))
+
 
 ```
