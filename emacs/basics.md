@@ -2,7 +2,7 @@
 title: Emacs/Basics
 description: 
 published: true
-date: 2020-07-19T01:29:42.790Z
+date: 2020-07-19T03:06:50.761Z
 tags: 
 ---
 
@@ -959,5 +959,51 @@ When press key 'End' and shows get an error `<select> is undefined`
  (lambda ()
       (setq pcomplete-cycle-completions nil)))
 
+
+
+
+(require 'flycheck-color-mode-line)
+
+(eval-after-load "flycheck"
+    '(add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (powerline yasnippet xclip web-mode undo-tree tide sql-indent rjsx-mode pdf-tools neotree markdown-mode magit json-navigator json-mode impatient-mode ibuffer-vc ibuffer-sidebar helm-projectile flycheck-color-mode-line diredful dired-subtree dired-rainbow company-tern auto-complete))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+
+
+
+;(custom-set-faces
+;    '(mode-line ((t (:box (:line-width 2 :color "red"))))))
+
+
+(set-face-attribute 'mode-line nil
+                    :background "gray15"
+                    :foreground "white"
+                    :box '(:line-width 8 :color "#353644")
+                    :overline nil
+                    :underline nil)
+
+;(set-face-attribute 'mode-line-inactive nil
+                    ;:background "#565063"
+                    ;:foreground "white"
+                    ;:box '(:line-width 8 :color "#565063")
+                    ;:box '(:line-width 2 :color "red")
+                    ;:overline nil
+                    ;:underline nil)
+
+(custom-set-faces
+    '(mode-line-inactive ((t (:box (:line-width 2 :color "red"))))))
 
 ```
