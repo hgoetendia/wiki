@@ -2,12 +2,12 @@
 title: Postgresql Activity
 description: 
 published: true
-date: 2020-07-22T18:11:19.878Z
+date: 2020-07-22T18:11:38.508Z
 tags: activity, show process, show processlist, pg_activity
 ---
 
 
-# Postgres activity
+# PostgreSQL activity
 
 MySQL has a very powerfull command through “show full processlist;", to see a list of currently running queries: `show full processlist;`
 
