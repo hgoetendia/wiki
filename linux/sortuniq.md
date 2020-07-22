@@ -2,8 +2,8 @@
 title: Sort uniq
 description: A quick summary of Sortuniq
 published: true
-date: 2020-05-24T02:53:42.505Z
-tags: 
+date: 2020-07-22T18:06:51.508Z
+tags: sort, uniq, duplicados, duplicates
 ---
 
 # Unique lines
