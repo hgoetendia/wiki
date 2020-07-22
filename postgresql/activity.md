@@ -2,7 +2,7 @@
 title: Postgresql Activity
 description: 
 published: true
-date: 2020-07-22T18:13:23.907Z
+date: 2020-07-22T18:22:36.338Z
 tags: activity, show process, show processlist, pg_activity
 ---
 
