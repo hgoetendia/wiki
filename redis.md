@@ -2,7 +2,7 @@
 title: Redis
 description: REDIS
 published: true
-date: 2020-07-23T00:02:38.501Z
+date: 2020-07-23T01:01:22.096Z
 tags: redis, nosql
 ---
 
