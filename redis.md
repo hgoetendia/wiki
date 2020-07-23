@@ -2,7 +2,7 @@
 title: Redis
 description: REDIS
 published: true
-date: 2020-05-26T23:43:44.653Z
+date: 2020-07-23T00:02:38.501Z
 tags: redis, nosql
 ---
 
@@ -66,4 +66,17 @@ systemctl enable redis-server_second.service
 systemctl start redis-server_second.service
 ```
 
+# Log In
+```
+$ redis-cli
+```
 
+# Show keys
+```
+127.0.0.1:6379[1]> keys *
+```
+
+# Delete/Drop all keys
+```
+127.0.0.1:6379[1]> flushdb
+```
