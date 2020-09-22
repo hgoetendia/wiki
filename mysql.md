@@ -2,7 +2,7 @@
 title: Mysql
 description: 
 published: true
-date: 2019-11-19T21:44:57.790Z
+date: 2020-09-22T23:51:10.860Z
 tags: 
 ---
 
@@ -25,3 +25,4 @@ tags:
 * [Load data](/mysql/loaddata)
 * [Start database withouth innoDB verification/recovery](/mysql/databaseverificationrecovery)
 * [Delete data](/mysql/delete)
+* [Update table](/mysql/update)
