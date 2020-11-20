@@ -2,7 +2,7 @@
 title: THM
 description: The happy moon
 published: true
-date: 2020-07-07T02:22:57.630Z
+date: 2020-11-20T23:40:46.314Z
 tags: 
 ---
 
@@ -60,7 +60,7 @@ tags:
 * [sed](/misc/sed)
 * [split](/misc/split)
 * [Tmux](/misc/tmux)
-* [https: Let’s Encrypt](/misc/letsencrypt)
+* [https: Let’s Encrypt](/misc/letsencrypt)python3.8 -m pip install --user qmk
 * [curl](/misc/curl)
 * [Google Cloud](/misc/gcloud)
 * [Valgrind / Memory leaking](/misc/valgrind)
@@ -68,6 +68,8 @@ tags:
 * [Airflow](/misc/airflow)
 * [Google Clould Plataform (GCP)](/misc/gcp)
 * [Xymon](/misc/xymon)
+* [QMK] (/misc/qmk)
+
 # Usefull tools
 
 * [Python tutor (Simulators)](http://pythontutor.com)
