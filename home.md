@@ -2,7 +2,7 @@
 title: THM
 description: The happy moon
 published: true
-date: 2020-11-20T23:40:46.314Z
+date: 2020-11-20T23:41:25.540Z
 tags: 
 ---
 
@@ -68,7 +68,7 @@ tags:
 * [Airflow](/misc/airflow)
 * [Google Clould Plataform (GCP)](/misc/gcp)
 * [Xymon](/misc/xymon)
-* [QMK] (/misc/qmk)
+* [QMK](/misc/qmk)
 
 # Usefull tools
 
