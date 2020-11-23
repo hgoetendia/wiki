@@ -2,7 +2,7 @@
 title: Libzdb
 description: 
 published: true
-date: 2019-10-28T00:40:51.248Z
+date: 2020-11-23T21:33:16.514Z
 tags: 
 ---
 
@@ -18,6 +18,7 @@ Dependencies:
 
 ```sh
 sudo apt-get install libmysqlclient-dev
+cd libzdb-3.1/
 ./configure
 ```
 Last lines of summary
