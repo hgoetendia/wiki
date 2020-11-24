@@ -2,7 +2,7 @@
 title: Creating users / databases
 description: 
 published: true
-date: 2020-05-26T17:36:28.999Z
+date: 2020-11-24T22:49:23.573Z
 tags: 
 ---
 
@@ -87,6 +87,7 @@ With password
 ```sh
 psql -d mydb -U myuser -W
 psql -h myhost -d mydb -U myuser -W
+psql -h 127.0.0.1 -d mydb -U myuser -W
 ```
 
 
