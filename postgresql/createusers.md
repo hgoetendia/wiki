@@ -2,7 +2,7 @@
 title: Creating users / databases
 description: 
 published: true
-date: 2020-11-24T22:49:23.573Z
+date: 2020-11-24T22:52:11.435Z
 tags: 
 ---
 
@@ -145,3 +145,34 @@ Upon installation Postgres is set up to use "ident" authentication, meaning that
 ```[local] postgres@postgres=# drop user myuser;```
 
 
+
+
+# Create a read-only user in PostgreSQL
+## To create a new user in PostgreSQL:
+
+```
+postgres=# CREATE USER username WITH PASSWORD 'your_password';
+```
+
+## GRANT the CONNECT access:
+```
+postgres=# GRANT CONNECT ON DATABASE mydatabase TO username;
+```
+
+## Then GRANT USAGE on schema:
+```
+postgres=# GRANT USAGE ON SCHEMA schema_name TO username;
+```
+
+## GRANT SELECT
+```
+postgres=# GRANT SELECT for a specific table:
+postgres=# GRANT SELECT ON table_name TO username;
+postgres=# GRANT SELECT for multiple tables:
+postgres=# GRANT SELECT ON ALL TABLES IN SCHEMA schema_name TO username;
+```
+If you want to grant access to the new table in the future automatically, you have to alter default:
+```
+postgres=# ALTER DEFAULT PRIVILEGES IN SCHEMA schema_name
+postgres=# GRANT SELECT ON TABLES TO username;
+```
