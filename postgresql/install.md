@@ -2,7 +2,7 @@
 title: PostgreSQL/Install
 description: 
 published: true
-date: 2020-12-03T22:10:18.690Z
+date: 2020-12-03T22:12:02.176Z
 tags: 
 ---
 
@@ -81,8 +81,8 @@ sudo systemctl restart postgresql-11.service
 ```
 
 
-# Ubuntu 20.04
+# Ubuntu 20.04 tested with PostgreSQL 12
 
 ```sh
-apt-get install postgresql-12 postgresql-client-12
+# apt-get install postgresql-12 postgresql-client-12
 ```
