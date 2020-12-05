@@ -2,7 +2,7 @@
 title: PostgreSQL
 description: 
 published: true
-date: 2020-11-12T23:22:26.237Z
+date: 2020-12-05T23:15:01.895Z
 tags: 
 ---
 
@@ -20,3 +20,4 @@ tags:
 * [Activity](postgresql/activity)
 * [Misc](/postgresql/misc)
 * [Extensions](/postgres/extensions)
+* [Triggers](/postgres/triggers)
