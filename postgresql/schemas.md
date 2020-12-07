@@ -2,7 +2,7 @@
 title: Schemas
 description: 
 published: true
-date: 2020-11-14T18:26:07.018Z
+date: 2020-12-07T22:55:52.505Z
 tags: 
 ---
 
@@ -31,4 +31,10 @@ mydatabase=> SHOW search_path;
 (1 row)
 
 mydatabase=>
+```
+
+Another example:
+
+```
+myDatabase=> ALTER DATABASE myDatabase SET search_path =  "$user",  work, config, public;
 ```
