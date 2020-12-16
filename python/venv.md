@@ -2,7 +2,7 @@
 title: Virtual enviroments and packages
 description: 
 published: true
-date: 2019-10-28T00:47:21.189Z
+date: 2020-12-16T21:16:00.336Z
 tags: 
 ---
 
@@ -30,3 +30,8 @@ python3 -m venv my-env
 source my-env/bin/activate
 ```
 # Managing Packages with pip
+
+
+```sh
+pip install requirements.txt
+```
