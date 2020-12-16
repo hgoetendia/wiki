@@ -2,8 +2,8 @@
 title: Virtual enviroments and packages
 description: 
 published: true
-date: 2020-12-16T21:16:00.336Z
-tags: 
+date: 2020-12-16T21:21:01.973Z
+tags: virtualenv, venv, pip, requirements
 ---
 
 Sometimes it is not possible for one Python installation to meet the requirements of every application. If application A needs version 1.0 of a particular module but application B needs version 2.0, then the requirements are in conflict and installing either version 1.0 or 2.0 will leave one application unable to run.
@@ -33,5 +33,5 @@ source my-env/bin/activate
 
 
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
