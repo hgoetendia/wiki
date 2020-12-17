@@ -2,7 +2,7 @@
 title: Misco
 description: 
 published: true
-date: 2020-06-12T00:47:36.280Z
+date: 2020-12-17T20:49:44.151Z
 tags: postgresql, select tables , query, querys
 ---
 
@@ -27,4 +27,25 @@ ORDER BY
 
 ``` sql
 SELECT DATE( NOW() - INTERVAL '1 day');
+```
+
+# Query show/hide table headers
+
+Use the flag `-t`
+
+```sql
+$ psql -t myDatabase
+
+myDatabase=# SELECT DATE( NOW() - INTERVAL '1 day');
+ 2020-12-16
+
+myDatabase=#
+
+$ psql myDatabase
+myDatabase=# SELECT DATE( NOW() - INTERVAL '1 day');
+    date
+------------
+ 2020-12-16
+(1 row)
+myDatabase=#
 ```
