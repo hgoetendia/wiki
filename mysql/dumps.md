@@ -2,7 +2,7 @@
 title: MySQL/Dumps
 description: 
 published: true
-date: 2019-10-28T00:44:01.204Z
+date: 2020-12-20T03:59:40.173Z
 tags: 
 ---
 
@@ -15,11 +15,23 @@ mysqldump -umyuser -p -hmyhost mydatabase mytable >  mytable_dump.sql
 ```sh
 mysqldump --all-databases --master-data | gzip -1 > /root/all.sql.gz
 ```
+or
+
+```sh
+mysqldump  --master-data --databases myDatabase1 myDatabase2 | gzip -1 > /root/all.sql.gz
+```
 
 Tests
 
 ```sh
 mysqldump -u root -p --databases database_name_a database_name_b > databases_a_b.sql
+```
+
+
+# Restore
+
+```sh
+mysql -umyUser -p < all.masterNode_20200705.dmp
 ```
 
 # Dump only schema
