@@ -2,7 +2,7 @@
 title: Create self signed certificate
 description: 
 published: true
-date: 2020-12-22T00:27:13.238Z
+date: 2020-12-22T00:27:21.755Z
 tags: certificate, personal certificate
 ---
 
