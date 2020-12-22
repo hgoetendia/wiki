@@ -2,7 +2,7 @@
 title: Nginx
 description: 
 published: true
-date: 2020-12-22T00:26:10.203Z
+date: 2020-12-22T00:28:11.520Z
 tags: 
 ---
 
@@ -10,4 +10,4 @@ tags:
 * [Add letsencrypt configuration](/nginx/letsencrypt)
 * [NGINX with Goddady SSL Certs](/nginx/godaddyssl)
 * [Basic authentication](/nginx/authentication)
-* [Create free self signed certificate](nginx/personalcertificate)
+* [Create free self signed certificate](/nginx/personalcertificate)
