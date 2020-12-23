@@ -2,7 +2,7 @@
 title: Mysql delete 
 description: 
 published: true
-date: 2020-12-23T20:57:16.631Z
+date: 2020-12-23T21:15:37.027Z
 tags: 
 ---
 
