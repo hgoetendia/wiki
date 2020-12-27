@@ -2,7 +2,7 @@
 title: QMK Massdrop DROP CTRL configuration
 description: Customize Massdrop DROP CTRL Mechanic Keyboard 
 published: true
-date: 2020-12-27T01:52:53.780Z
+date: 2020-12-27T01:53:42.233Z
 tags: qmk, keyboard, mechanic, drop, ctrl, drop ctrl
 ---
 
