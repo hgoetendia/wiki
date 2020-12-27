@@ -2,7 +2,7 @@
 title: QMK Massdrop DROP CTRL configuration
 description: Customize Massdrop DROP CTRL Mechanic Keyboard 
 published: true
-date: 2020-12-27T01:50:03.169Z
+date: 2020-12-27T01:52:00.540Z
 tags: qmk, keyboard, mechanic, drop, ctrl, drop ctrl
 ---
 
@@ -28,6 +28,7 @@ $ ls -lah qmk_firmware/massdrop_ctrl_default.bin
 
 Choose keyboard: 
 
+English US: Variant
 English (intl., with AltGr dead keys)
 
 ![keymapusintlaltgrdeadkeys.png](/uploads/misc/keymapusintlaltgrdeadkeys.png)
