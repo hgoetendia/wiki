@@ -2,7 +2,7 @@
 title: QMK Massdrop DROP CTRL configuration
 description: Customize Massdrop DROP CTRL Mechanic Keyboard 
 published: true
-date: 2020-12-27T01:52:00.540Z
+date: 2020-12-27T01:52:53.780Z
 tags: qmk, keyboard, mechanic, drop, ctrl, drop ctrl
 ---
 
@@ -21,6 +21,7 @@ Download mdloader_linux from https://github.com/Massdrop/mdloader/releases for m
 ```bash
 $ ls -lah qmk_firmware/massdrop_ctrl_default.bin
 ./mdloader_linux --first --download qmk_firmware/massdrop_ctrl_default.bin --restart
+# While is counting down press the keyboard reset button.
 ```
 
 
