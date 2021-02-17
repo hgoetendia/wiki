@@ -2,8 +2,8 @@
 title: AWK
 description: AWK hacks
 published: true
-date: 2020-04-16T21:47:05.754Z
-tags: 
+date: 2021-02-17T20:53:50.713Z
+tags: awk
 ---
 
 # AWK
@@ -14,4 +14,5 @@ tags:
 ```
 awk -F "," '{print $1}' filename
 awk -F ":" '{print $4 "|" $6 "|" $7 "|" $5}'
+head  myfile.ssv|awk -F ";" '{print $1 "|" $2 "|" $3 "|" substr($4,1,4) "-" substr($4,5,2) "-" substr($4,7,2) " " substr($4,9,2) ":"  substr($4,11,2) ":" substr($4,13,2)}'
 ```
