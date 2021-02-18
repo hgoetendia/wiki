@@ -2,7 +2,7 @@
 title: Update table
 description: 
 published: true
-date: 2021-02-17T22:45:10.721Z
+date: 2021-02-18T00:41:22.307Z
 tags: update, mysql update
 ---
 
