@@ -2,7 +2,7 @@
 title: lsof
 description: 
 published: true
-date: 2021-04-13T22:03:53.381Z
+date: 2021-04-13T22:58:15.634Z
 tags: lsof
 ---
 
