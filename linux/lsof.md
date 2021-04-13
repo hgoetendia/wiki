@@ -2,7 +2,7 @@
 title: lsof
 description: 
 published: true
-date: 2021-04-13T22:02:47.722Z
+date: 2021-04-13T22:03:53.381Z
 tags: lsof
 ---
 
@@ -26,20 +26,7 @@ lsof -a +L1
 ```
 
 
-To truncate it:
-
-```bash
-: > /path/to/the/file.log
-```
-
-If it was already deleted, on Linux, you can still truncate it by doing:
-
-```bash
-: > "/proc/$pid/fd/$fd"
-```
-
-
-To save it:
+### To save it:
 
 This awesomeness was introduced to ln in v8.0 (GNU/coreutils) with the -L|--logical option which causes ln to dereference a /proc/<pid>/fd/<handle> first. So a simple
   
@@ -51,4 +38,16 @@ You can use debugfs. Run this command within:
 
 ```bash
 ln <$INODE> FILENAME
+```
+  
+### To truncate it:
+
+```bash
+: > /path/to/the/file.log
+```
+
+If it was already deleted, on Linux, you can still truncate it by doing:
+
+```bash
+: > "/proc/$pid/fd/$fd"
 ```
