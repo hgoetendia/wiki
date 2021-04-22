@@ -2,7 +2,7 @@
 title: ZSH
 description: 
 published: true
-date: 2021-04-22T18:07:08.477Z
+date: 2021-04-22T18:08:06.879Z
 tags: zsh, prezto
 ---
 
@@ -34,3 +34,5 @@ Change default shell
 ```sh
 chsh -s /bin/zsh
 ```
+
+Open a new Zsh terminal window or tab.
