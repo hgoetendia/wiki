@@ -2,7 +2,7 @@
 title: ZSH
 description: 
 published: true
-date: 2021-04-22T18:08:06.879Z
+date: 2021-04-22T18:24:23.544Z
 tags: zsh, prezto
 ---
 
