@@ -2,7 +2,7 @@
 title: Linux
 description: 
 published: true
-date: 2020-06-29T14:33:47.241Z
+date: 2021-04-22T17:59:49.306Z
 tags: 
 ---
 
@@ -35,6 +35,10 @@ tags:
 
 # Bash
 * [Prompt](/linux/bash/prompt)
+
+# ZSH
+
+* [zsh](/linux/zsh)
 
 # Tricks
 
