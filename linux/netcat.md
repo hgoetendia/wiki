@@ -2,7 +2,7 @@
 title: Netcat
 description: 
 published: true
-date: 2021-07-20T21:00:45.503Z
+date: 2021-07-20T21:10:59.756Z
 tags: 
 ---
 
@@ -22,7 +22,7 @@ done
 exit 0
 
 ```
-Otro
+Echo server
 
 ```sh
 #!/bin/bash
