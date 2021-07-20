@@ -2,7 +2,7 @@
 title: Netcat
 description: 
 published: true
-date: 2020-03-18T03:28:58.038Z
+date: 2021-07-20T21:00:45.503Z
 tags: 
 ---
 
@@ -21,4 +21,19 @@ do
 done
 exit 0
 
+```
+Otro
+
+```sh
+#!/bin/bash
+
+port=3010
+
+while true;
+do
+    echo "hola mundo"
+    nc -l -p $port -c 'read i && echo $i;'
+
+done
+exit 0
 ```
