@@ -2,7 +2,7 @@
 title: Netcat
 description: 
 published: true
-date: 2021-07-20T21:10:59.756Z
+date: 2021-07-21T01:41:14.985Z
 tags: 
 ---
 
